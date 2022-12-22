@@ -1,0 +1,860 @@
+CRITICAL - 2022-12-16 09:46:58 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671132561.030577.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671132561.030577.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671132561.030577.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671205617.685062', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 09:51:48 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671205735.956644.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671205735.956644.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671205735.956644.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671205908.219758', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:21:54 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671206539.712884.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671206539.712884.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671206539.712884.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671214913.994733', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:22:00 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1599.
+ 1 APPPATH\Views\clientes\inicio.php(1599): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1599, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:22:54 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1599.
+ 1 APPPATH\Views\clientes\inicio.php(1599): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1599, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:28:04 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1600.
+ 1 APPPATH\Views\clientes\inicio.php(1600): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1600, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:32:02 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1600.
+ 1 APPPATH\Views\clientes\inicio.php(1600): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1600, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:55:04 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 1203.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 1203, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1203): odbc_exec(resource (odbc link), 'SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_OPTRONICS.QUT1 T0 
+                                                            INNER JOIN HN_OPTRONICS.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'C0195\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:55:44 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 1203.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 1203, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1203): odbc_exec(resource (odbc link), 'SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_OPTRONICS.QUT1 T0 
+                                                            INNER JOIN HN_OPTRONICS.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'C0195\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:56:12 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 1203.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 1203, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1203): odbc_exec(resource (odbc link), 'SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_OPTRONICS.QUT1 T0 
+                                                            INNER JOIN HN_OPTRONICS.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'C0195\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:56:38 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\clientes\inicio.php on line 1208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\clientes\\inicio.php', 1208, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1208): odbc_fetch_array('SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_FIBREMEX.QUT1 T0 
+                                                            INNER JOIN HN_FIBREMEX.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'2016-000317\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 12:58:25 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 1203.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 1203, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1203): odbc_exec(resource (odbc link), 'SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_OPTRONICS.QUT1 T0 
+                                                            INNER JOIN HN_OPTRONICS.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'C0103\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:24:14 --> Undefined variable: bd
+in APPPATH\Views\clientes\inicio.php on line 697.
+ 1 APPPATH\Views\clientes\inicio.php(697): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: bd', 'APPPATH\\Views\\clientes\\inicio.php', 697, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:24:35 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\clientes\inicio.php on line 702.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:29:39 --> Trying to get property 'num_rows' of non-object
+in APPPATH\Views\clientes\inicio.php on line 740.
+ 1 APPPATH\Views\clientes\inicio.php(740): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'num_rows\' of non-object', 'APPPATH\\Views\\clientes\\inicio.php', 740, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:32:03 --> Undefined variable: socCR
+in APPPATH\Views\clientes\inicio.php on line 771.
+ 1 APPPATH\Views\clientes\inicio.php(771): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: socCR', 'APPPATH\\Views\\clientes\\inicio.php', 771, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:32:25 --> Undefined variable: rows
+in APPPATH\Views\clientes\inicio.php on line 779.
+ 1 APPPATH\Views\clientes\inicio.php(779): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rows', 'APPPATH\\Views\\clientes\\inicio.php', 779, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 13:34:36 --> Trying to get property 'num_rows' of non-object
+in APPPATH\Views\funciones.php on line 135.
+ 1 APPPATH\Views\funciones.php(135): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'num_rows\' of non-object', 'APPPATH\\Views\\funciones.php', 135, [...])
+ 2 APPPATH\Views\clientes\inicio.php(838): consultanum_rowsSQL('SELECT *
+                                        FROM tbl_login 
+                                        WHERE cardcode = \'000003\'')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 16:56:16 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;362 invalid schema name: FIB: line 4 col 7 (at pos 237), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;362 invalid schema name: FIB: line 4 col 7 (at pos 237), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM Fib.OQUT T0
+ WHERE T0."DocNum" = \'2014-010982\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM Fib.OQUT T0
+ WHERE T0."DocNum" = \'2014-010982\' 
+')
+ 4 APPPATH\Views\documentos\inicio.php(129): ENCABEZADO('2014-010982', 'Fib')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 8 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 16:56:49 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant 2014-010982, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant 2014-010982, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'2014-010982\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'2014-010982\' 
+')
+ 4 APPPATH\Views\documentos\inicio.php(128): ENCABEZADO('2014-010982', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 8 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:03:08 --> Undefined variable: cc
+in APPPATH\Views\documentos\inicio.php on line 136.
+ 1 APPPATH\Views\documentos\inicio.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cc', 'APPPATH\\Views\\documentos\\inicio.php', 136, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:03:26 --> Undefined variable: cc
+in APPPATH\Views\documentos\inicio.php on line 153.
+ 1 APPPATH\Views\documentos\inicio.php(153): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cc', 'APPPATH\\Views\\documentos\\inicio.php', 153, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:05:24 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671226854.650584.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671226854.650584.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671226854.650584.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671231923.421202', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:05:46 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant 2016-002146, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant 2016-002146, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'2016-002146\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'2016-002146\' 
+')
+ 4 APPPATH\Views\documentos\inicio.php(128): ENCABEZADO('2016-002146', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 8 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:07:15 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:08:17 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->BB()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:09:02 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:09:16 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011872 bytes)
+in APPPATH\Views\documentos\buscar.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:09:16 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011848 bytes)
+in APPPATH\Views\documentos\buscar.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:09:17 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011736 bytes)
+in APPPATH\Views\documentos\buscar.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:09:19 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011784 bytes)
+in APPPATH\Views\documentos\buscar.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:09:20 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011824 bytes)
+in APPPATH\Views\documentos\buscar.php on line 66.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:10:01 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011872 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:10:01 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011848 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:11:02 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011840 bytes)
+in APPPATH\Views\documentos\buscar.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:11:03 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011888 bytes)
+in APPPATH\Views\documentos\buscar.php on line 68.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:11:59 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011872 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:11:59 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011848 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:12:04 --> Allowed memory size of 134217728 bytes exhausted (tried to allocate 65011736 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:06 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120696 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:06 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120696 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:09 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:17 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:18 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:21 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:21 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:15:21 --> Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:17:33 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671231997.622273.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671231997.622273.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671231997.622273.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671232652.788276', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:18:00 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:18:08 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120712 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:18:09 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120672 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:18:51 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120712 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:18:53 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132120672 bytes)
+in APPPATH\Views\documentos\buscar.php on line 67.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:19:38 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 94388224 bytes)
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-16 17:26:23 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:28:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\inicio.php on line 701.
+ 1 APPPATH\Views\clientes\inicio.php(701): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\inicio.php', 701, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:47:11 --> Undefined variable: datos_cliente
+in APPPATH\Views\documentos\inicio.php on line 139.
+ 1 APPPATH\Views\documentos\inicio.php(139): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos_cliente', 'APPPATH\\Views\\documentos\\inicio.php', 139, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:52:16 --> Undefined index: Subtotal USD
+in APPPATH\Views\documentos\inicio.php on line 141.
+ 1 APPPATH\Views\documentos\inicio.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Subtotal USD', 'APPPATH\\Views\\documentos\\inicio.php', 141, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:53:47 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant A, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant A, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'A\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'A\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('A', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('A', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 17:54:12 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant A, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant A, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'A\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'A\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('A', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('A', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:00:22 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671234992.821906.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671234992.821906.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671234992.821906.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671235221.736951', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:03:04 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671235127.870023.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671235127.870023.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671235127.870023.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671235384.239905', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:06:21 --> Undefined variable: datos_cliente
+in APPPATH\Views\documentos\inicio.php on line 152.
+ 1 APPPATH\Views\documentos\inicio.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos_cliente', 'APPPATH\\Views\\documentos\\inicio.php', 152, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:06:53 --> Undefined index: USD
+in APPPATH\Views\documentos\inicio.php on line 146.
+ 1 APPPATH\Views\documentos\inicio.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: USD', 'APPPATH\\Views\\documentos\\inicio.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:15:33 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:38:24 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671236510.344607.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671236510.344607.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671236510.344607.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671237503.502297', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:44:08 --> syntax error, unexpected end of file
+in APPPATH\Views\documentos\inicio.php on line 205.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 3 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:44:23 --> syntax error, unexpected end of file
+in APPPATH\Views\documentos\inicio.php on line 200.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 3 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:46:35 --> Trying to get property 'Articulo' of non-object
+in APPPATH\Views\documentos\inicio.php on line 187.
+ 1 APPPATH\Views\documentos\inicio.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'Articulo\' of non-object', 'APPPATH\\Views\\documentos\\inicio.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:46:50 --> Illegal string offset 'Articulo'
+in APPPATH\Views\documentos\inicio.php on line 187.
+ 1 APPPATH\Views\documentos\inicio.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'Articulo\'', 'APPPATH\\Views\\documentos\\inicio.php', 187, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:48:21 --> Undefined index: SubTotal USD
+in APPPATH\Views\documentos\inicio.php on line 191.
+ 1 APPPATH\Views\documentos\inicio.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: SubTotal USD', 'APPPATH\\Views\\documentos\\inicio.php', 191, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 18:50:35 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 132136960 bytes)
+in APPPATH\Views\documentos\inicio.php on line 187.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

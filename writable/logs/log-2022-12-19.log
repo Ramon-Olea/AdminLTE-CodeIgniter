@@ -1,0 +1,2456 @@
+CRITICAL - 2022-12-19 09:07:50 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671238766.116661.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671238766.116661.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671238766.116661.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671462469.355429', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:12:32 --> Undefined variable: key
+in APPPATH\Views\documentos\inicio.php on line 205.
+ 1 APPPATH\Views\documentos\inicio.php(205): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: key', 'APPPATH\\Views\\documentos\\inicio.php', 205, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:12:54 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\funciones.php on line 131.
+ 1 APPPATH\Views\usuarios\actualizar.php(4): select_dato_where('t_usuarios', 'id_usuario', 'undefined')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:13:06 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\funciones.php on line 131.
+ 1 APPPATH\Views\usuarios\actualizar.php(4): select_dato_where('t_usuarios', 'id_usuario', 'undefined')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:13:55 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\funciones.php on line 131.
+ 1 APPPATH\Views\usuarios\actualizar.php(4): select_dato_where('t_usuarios', 'id_usuario', 'undefined')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(116): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:20:42 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671462644.314193.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671462644.314193.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671462644.314193.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671463241.688135', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:20:43 --> Undefined index: Articulo
+in APPPATH\Views\documentos\stockdisponible.php on line 6.
+ 1 APPPATH\Views\documentos\stockdisponible.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Articulo', 'APPPATH\\Views\\documentos\\stockdisponible.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\stockdisponible.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/stockdisponible', [], true)
+ 5 APPPATH\Controllers\DocNum.php(27): view('documentos/stockdisponible')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->stockdisponible()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:20:50 --> Undefined index: Articulo
+in APPPATH\Views\documentos\stockdisponible.php on line 6.
+ 1 APPPATH\Views\documentos\stockdisponible.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Articulo', 'APPPATH\\Views\\documentos\\stockdisponible.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\stockdisponible.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/stockdisponible', [], true)
+ 5 APPPATH\Controllers\DocNum.php(27): view('documentos/stockdisponible')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->stockdisponible()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:21:00 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671462785.179274.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671462785.179274.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671462785.179274.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671463259.705094', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:23:37 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ','
+in APPPATH\Views\documentos\inicio.php on line 209.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 3 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:24:57 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\inicio.php on line 211.
+ 1 APPPATH\Views\documentos\inicio.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\inicio.php', 211, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:27:34 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\inicio.php on line 276.
+ 1 APPPATH\Views\documentos\inicio.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\inicio.php', 276, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:27:43 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\inicio.php on line 276.
+ 1 APPPATH\Views\documentos\inicio.php(276): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\inicio.php', 276, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(14): view('documentos/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:28:48 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671463105.857224.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671463105.857224.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671463105.857224.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671463727.340857', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:53:57 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 APPPATH\Views\documentos\buscar.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\buscar.php', 64, [...])
+ 2 APPPATH\Views\documentos\buscar.php(54): buscar('42258', 'Opt', 'HN_OPTRONICS')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 6 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 09:53:58 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 APPPATH\Views\documentos\buscar.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\buscar.php', 64, [...])
+ 2 APPPATH\Views\documentos\buscar.php(54): buscar('422588', 'Opt', 'HN_OPTRONICS')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 6 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 10:18:04 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671466211.524151.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671466211.524151.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671466211.524151.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671466683.776039', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:22:11 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIRA1UV\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(249): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIRA1UV\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPDIRA1UV', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:25:06 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPACSCPBRODBE\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(249): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPACSCPBRODBE\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPACSCPBRODBE', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:25:12 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPACSCPBRODBE\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(249): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPACSCPBRODBE\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPACSCPBRODBE', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:25:33 --> Undefined variable: sql
+in APPPATH\Views\funciones.php on line 242.
+ 1 APPPATH\Views\funciones.php(242): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sql', 'APPPATH\\Views\\funciones.php', 242, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPACSCPBRODBE', 'HN_FIBREMEX')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:25:59 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIRA1UV\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(250): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIRA1UV\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPDIRA1UV', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:28:54 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIPLA06SCD\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(250): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_FIBREMEX.OIPF T0
+	INNER JOIN HN_FIBREMEX.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPDIPLA06SCD\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPDIPLA06SCD', 'HN_FIBREMEX')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:29:53 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_OPTRONICS.OIPF T0
+	INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+	ORDER BY 1
+	')
+ 3 APPPATH\Views\funciones.php(250): db_SAP('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+	FROM HN_OPTRONICS.OIPF T0
+	INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+	WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+	ORDER BY 1
+	')
+ 4 APPPATH\Views\documentos\factorimportacion.php(18): FACTOR_IMPORTACION('OPJUSCPSCP62D0250RI2', 'HN_OPTRONICS')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 8 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:32:46 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0350RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:33:09 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:34:29 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\documentos\factorimportacion.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\documentos\\factorimportacion.php', 30, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(30): odbc_fetch_array('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:34:42 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\documentos\factorimportacion.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\documentos\\factorimportacion.php', 30, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(30): odbc_fetch_array('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:35:01 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:35:46 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Base table not found;259 invalid table name:  Could not find table/view IPF2 in schema USR_LECTURA: line 1 col 63 (at pos 62), SQL state S0002 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") "FI"
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:36:28 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;FI&quot;: line 1 col 112 (at pos 112), SQL state 37000 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;FI&quot;: line 1 col 112 (at pos 112), SQL state 37000 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") \'FI\'
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:37:07 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;FI&quot;: line 1 col 112 (at pos 112), SQL state 37000 in SQLExecDirect
+in APPPATH\Views\documentos\factorimportacion.php on line 24.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;FI&quot;: line 1 col 112 (at pos 112), SQL state 37000 in SQLExecDirect', 'APPPATH\\Views\\documentos\\factorimportacion.php', 24, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(24): odbc_exec(resource (odbc link), 'SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") \'FI\'
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:38:41 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\documentos\factorimportacion.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\documentos\\factorimportacion.php', 30, [...])
+ 2 APPPATH\Views\documentos\factorimportacion.php(30): odbc_fetch_array('SELECT TOP 5 T0."DocNum", (SELECT SUM(T100."Factor")/100 FROM HN_OPTRONICS.IPF2 T100 WHERE T100."DocEntry" = T0."DocEntry") \'FI\'
+        FROM HN_OPTRONICS.OIPF T0
+        INNER JOIN HN_OPTRONICS.IPF1 T1 ON T0."DocEntry" = T1."DocEntry"
+        WHERE T1."ItemCode" = \'OPJUSCPSCP62D0250RI2\'
+        ORDER BY 1
+        ')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\factorimportacion.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/factorimportacion', [], true)
+ 6 APPPATH\Controllers\DocNum.php(34): view('documentos/factorimportacion')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->factorimportacion()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 11:41:24 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:22:23 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671473561.540067.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671473561.540067.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671473561.540067.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671474143.290779', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:22:34 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 APPPATH\Views\documentos\buscar.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\buscar.php', 64, [...])
+ 2 APPPATH\Views\documentos\buscar.php(54): buscar('411111', 'Fib', 'HN_FIBREMEX')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 6 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:22:35 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 APPPATH\Views\documentos\buscar.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\buscar.php', 64, [...])
+ 2 APPPATH\Views\documentos\buscar.php(54): buscar('4111111', 'Fib', 'HN_FIBREMEX')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 6 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:35:26 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671474669.348427.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671474669.348427.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671474669.348427.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671474926.378747', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:50:44 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 12:50:45 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant ar, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant ar, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'ar\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'ar\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('ar', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('ar', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(22): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:02:43 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671474937.105864.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671474937.105864.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671474937.105864.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671476562.628864', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:09:10 --> Undefined index: Articulo
+in APPPATH\Views\documentos\detalleprecio.php on line 4.
+ 1 APPPATH\Views\documentos\detalleprecio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Articulo', 'APPPATH\\Views\\documentos\\detalleprecio.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\detalleprecio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/detalleprecio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(62): view('documentos/detalleprecio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:12:26 --> Undefined index: Articulo
+in APPPATH\Views\documentos\detalleprecio.php on line 4.
+ 1 APPPATH\Views\documentos\detalleprecio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Articulo', 'APPPATH\\Views\\documentos\\detalleprecio.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\detalleprecio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/detalleprecio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(62): view('documentos/detalleprecio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:12:42 --> Undefined variable: data
+in APPPATH\Views\documentos\detalleprecio.php on line 4.
+ 1 APPPATH\Views\documentos\detalleprecio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\documentos\\detalleprecio.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\detalleprecio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/detalleprecio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(62): view('documentos/detalleprecio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:13:13 --> Undefined variable: Articulo
+in APPPATH\Views\documentos\detalleprecio.php on line 4.
+ 1 APPPATH\Views\documentos\detalleprecio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Articulo', 'APPPATH\\Views\\documentos\\detalleprecio.php', 4, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\detalleprecio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/detalleprecio', [], true)
+ 5 APPPATH\Controllers\DocNum.php(62): view('documentos/detalleprecio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:14:59 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671475848.699868.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671475848.699868.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671475848.699868.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671477298.590842', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:24:47 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\DocNum.php(72): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+<table class="table  table-dark table-striped" id="datatableDefault">
+    <button type="button" id="pdfboton" class="btn btn-danger"><i class="far fa-lg fa-fw me-2 fa-file-pdf"></i>PDF</button>
+    <thead>
+        <tr>
+            <th scope="col">Articulo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Precio C/Dscto</th>
+            <th scope="col">SubTotal USD</th>
+            <th scope="col">Fam Articulos</th>
+            <th scope="col">Metros por carrete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonUS-126" data-bs-target="#modalCoverExample" data-id="US-126">US-126</a></td>
+ -->
+                <td><a id="botonUS-126" href="#">US-126</a></td>
+                <td>Empalmes mecánico universal monomodo</td>
+                <td>4.00</td>
+                <td>0.00</td>
+                <td>$ 14.25</td>
+                <td>$ 57.00</td>
+                <td>Items Inactivos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonUS-126\').click(function() {
+
+                    var Articulo = \'US-126\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="boton34155" data-bs-target="#modalCoverExample" data-id="34155">34155</a></td>
+ -->
+                <td><a id="boton34155" href="#">34155</a></td>
+                <td>Toalla seca s/pelusa 20x21cm (280 paños)</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 3</td>
+                <td>$ 6.00</td>
+                <td>Consumibles Otros</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#boton34155\').click(function() {
+
+                    var Articulo = \'34155\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC15" data-bs-target="#modalCoverExample" data-id="OPHEC15">OPHEC15</a></td>
+ -->
+                <td><a id="botonOPHEC15" href="#">OPHEC15</a></td>
+                <td>Limpiador de ferula 1.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC15\').click(function() {
+
+                    var Articulo = \'OPHEC15\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC25" data-bs-target="#modalCoverExample" data-id="OPHEC25">OPHEC25</a></td>
+ -->
+                <td><a id="botonOPHEC25" href="#">OPHEC25</a></td>
+                <td>Limpiador de ferula 2.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC25\').click(function() {
+
+                    var Articulo = \'OPHEC25\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPIFCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPIFCU09B0020RI9">OPPIFCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPIFCU09B0020RI9" href="#">OPPIFCU09B0020RI9</a></td>
+                <td>Pigtail FC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 5.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPIFCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPIFCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPJUSCUSCU09S0050RI2" data-bs-target="#modalCoverExample" data-id="OPJUSCUSCU09S0050RI2">OPJUSCUSCU09S0050RI2</a></td>
+ -->
+                <td><a id="botonOPJUSCUSCU09S0050RI2" href="#">OPJUSCUSCU09S0050RI2</a></td>
+                <td>Jumper SC/UPC-SC/UPC Monomodo 9/125 Simplex de 5m Riser de 2mm</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 9</td>
+                <td>$ 18.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPJUSCUSCU09S0050RI2\').click(function() {
+
+                    var Articulo = \'OPJUSCUSCU09S0050RI2\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonGTOSENVIO" data-bs-target="#modalCoverExample" data-id="GTOSENVIO">GTOSENVIO</a></td>
+ -->
+                <td><a id="botonGTOSENVIO" href="#">GTOSENVIO</a></td>
+                <td>Gastos de Envio</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 10</td>
+                <td>$ 10.00</td>
+                <td>Servicios Logisticos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonGTOSENVIO\').click(function() {
+
+                    var Articulo = \'GTOSENVIO\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+            </tbody>
+</table>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:25:51 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\DocNum.php(72): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+<table class="table  table-dark table-striped" id="datatableDefault">
+    <button type="button" id="pdfboton" class="btn btn-danger"><i class="far fa-lg fa-fw me-2 fa-file-pdf"></i>PDF</button>
+    <thead>
+        <tr>
+            <th scope="col">Articulo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Precio C/Dscto</th>
+            <th scope="col">SubTotal USD</th>
+            <th scope="col">Fam Articulos</th>
+            <th scope="col">Metros por carrete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonUS-126" data-bs-target="#modalCoverExample" data-id="US-126">US-126</a></td>
+ -->
+                <td><a id="botonUS-126" href="#">US-126</a></td>
+                <td>Empalmes mecánico universal monomodo</td>
+                <td>4.00</td>
+                <td>0.00</td>
+                <td>$ 14.25</td>
+                <td>$ 57.00</td>
+                <td>Items Inactivos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonUS-126\').click(function() {
+
+                    var Articulo = \'US-126\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="boton34155" data-bs-target="#modalCoverExample" data-id="34155">34155</a></td>
+ -->
+                <td><a id="boton34155" href="#">34155</a></td>
+                <td>Toalla seca s/pelusa 20x21cm (280 paños)</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 3</td>
+                <td>$ 6.00</td>
+                <td>Consumibles Otros</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#boton34155\').click(function() {
+
+                    var Articulo = \'34155\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC15" data-bs-target="#modalCoverExample" data-id="OPHEC15">OPHEC15</a></td>
+ -->
+                <td><a id="botonOPHEC15" href="#">OPHEC15</a></td>
+                <td>Limpiador de ferula 1.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC15\').click(function() {
+
+                    var Articulo = \'OPHEC15\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC25" data-bs-target="#modalCoverExample" data-id="OPHEC25">OPHEC25</a></td>
+ -->
+                <td><a id="botonOPHEC25" href="#">OPHEC25</a></td>
+                <td>Limpiador de ferula 2.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC25\').click(function() {
+
+                    var Articulo = \'OPHEC25\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPIFCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPIFCU09B0020RI9">OPPIFCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPIFCU09B0020RI9" href="#">OPPIFCU09B0020RI9</a></td>
+                <td>Pigtail FC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 5.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPIFCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPIFCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPJUSCUSCU09S0050RI2" data-bs-target="#modalCoverExample" data-id="OPJUSCUSCU09S0050RI2">OPJUSCUSCU09S0050RI2</a></td>
+ -->
+                <td><a id="botonOPJUSCUSCU09S0050RI2" href="#">OPJUSCUSCU09S0050RI2</a></td>
+                <td>Jumper SC/UPC-SC/UPC Monomodo 9/125 Simplex de 5m Riser de 2mm</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 9</td>
+                <td>$ 18.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPJUSCUSCU09S0050RI2\').click(function() {
+
+                    var Articulo = \'OPJUSCUSCU09S0050RI2\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonGTOSENVIO" data-bs-target="#modalCoverExample" data-id="GTOSENVIO">GTOSENVIO</a></td>
+ -->
+                <td><a id="botonGTOSENVIO" href="#">GTOSENVIO</a></td>
+                <td>Gastos de Envio</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 10</td>
+                <td>$ 10.00</td>
+                <td>Servicios Logisticos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonGTOSENVIO\').click(function() {
+
+                    var Articulo = \'GTOSENVIO\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+            </tbody>
+</table>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:28:15 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\documentos\inicio.php on line 310.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\documentos\\inicio.php', 310, [...])
+ 2 APPPATH\Views\documentos\inicio.php(310): odbc_fetch_array('SELECT T1."ItemCode" "Articulo", T1."Dscription" "Descripcion", T1."Quantity" "Cantidad", T1."DiscPrcnt" "Descuento",
+	CASE WHEN T1."Currency" = \'USD\' THEN T1."Price" ELSE (T1."TotalSumSy"/T1."Quantity") END "Precio C/Dscto",
+	T1."TotalSumSy" "SubTotalUSD", T4."ItmsGrpNam" "Fam Articulos", 
+	CASE WHEN T3."U_ReelMeters" IS NULL THEN \'0\' ELSE T3."U_ReelMeters" END "Metros por carrete"
+ FROM HN_FIBREMEX.OQUT T0
+ INNER JOIN HN_FIBREMEX.QUT1 T1 ON T0."DocEntry" = T1."DocEntry"
+ INNER JOIN HN_FIBREMEX.OITM T3 ON T1."ItemCode" = T3."ItemCode"
+ INNER JOIN HN_FIBREMEX.OITB T4 ON T3."ItmsGrpCod" = T4."ItmsGrpCod"
+ WHERE T1."TreeType" <> \'I\' AND T0."DocNum" = \'4111\' 
+ ORDER BY T1."VisOrder"
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/inicio', [], true)
+ 6 APPPATH\Controllers\DocNum.php(15): view('documentos/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->documentos()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:28:51 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;HN_FIBREMEX&quot;: line 5 col 7 (at pos 397), SQL state 37000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;HN_FIBREMEX&quot;: line 5 col 7 (at pos 397), SQL state 37000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T1."ItemCode" "Articulo", T1."Dscription" "Descripcion", T1."Quantity" "Cantidad", T1."DiscPrcnt" "Descuento",
+	CASE WHEN T1."Currency" = \'USD\' THEN T1."Price" ELSE (T1."TotalSumSy"/T1."Quantity") END "Precio C/Dscto",
+	T1."TotalSumSy" "SubTotalUSD", T4."ItmsGrpNam" "Fam Articulos", 
+	CASE WHEN T3."U_ReelMeters" IS NULL THEN \'0\' ELSE T3."U_ReelMeters" END "Metros por carrete"
+ FROM \'HN_FIBREMEX\'.OQUT T0
+ INNER JOIN \'HN_FIBREMEX\'.QUT1 T1 ON T0."DocEntry" = T1."DocEntry"
+ INNER JOIN \'HN_FIBREMEX\'.OITM T3 ON T1."ItemCode" = T3."ItemCode"
+ INNER JOIN \'HN_FIBREMEX\'.OITB T4 ON T3."ItmsGrpCod" = T4."ItmsGrpCod"
+ WHERE T1."TreeType" <> \'I\' AND T0."DocNum" = \'\'4111\'\' 
+ ORDER BY T1."VisOrder"
+')
+ 3 APPPATH\Views\funciones.php(199): db_SAP('SELECT T1."ItemCode" "Articulo", T1."Dscription" "Descripcion", T1."Quantity" "Cantidad", T1."DiscPrcnt" "Descuento",
+	CASE WHEN T1."Currency" = \'USD\' THEN T1."Price" ELSE (T1."TotalSumSy"/T1."Quantity") END "Precio C/Dscto",
+	T1."TotalSumSy" "SubTotalUSD", T4."ItmsGrpNam" "Fam Articulos", 
+	CASE WHEN T3."U_ReelMeters" IS NULL THEN \'0\' ELSE T3."U_ReelMeters" END "Metros por carrete"
+ FROM \'HN_FIBREMEX\'.OQUT T0
+ INNER JOIN \'HN_FIBREMEX\'.QUT1 T1 ON T0."DocEntry" = T1."DocEntry"
+ INNER JOIN \'HN_FIBREMEX\'.OITM T3 ON T1."ItemCode" = T3."ItemCode"
+ INNER JOIN \'HN_FIBREMEX\'.OITB T4 ON T3."ItmsGrpCod" = T4."ItmsGrpCod"
+ WHERE T1."TreeType" <> \'I\' AND T0."DocNum" = \'\'4111\'\' 
+ ORDER BY T1."VisOrder"
+')
+ 4 APPPATH\Views\documentos\TablaPDF.php(24): DETALLE('\'4111\'', '\'HN_FIBREMEX\'')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\TablaPDF.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/TablaPDF', [], true)
+ 8 APPPATH\Controllers\DocNum.php(70): view('documentos/TablaPDF', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:29:46 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\DocNum.php(72): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+<table class="table  table-dark table-striped" id="datatableDefault">
+    <button type="button" id="pdfboton" class="btn btn-danger"><i class="far fa-lg fa-fw me-2 fa-file-pdf"></i>PDF</button>
+    <thead>
+        <tr>
+            <th scope="col">Articulo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Precio C/Dscto</th>
+            <th scope="col">SubTotal USD</th>
+            <th scope="col">Fam Articulos</th>
+            <th scope="col">Metros por carrete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonUS-126" data-bs-target="#modalCoverExample" data-id="US-126">US-126</a></td>
+ -->
+                <td><a id="botonUS-126" href="#">US-126</a></td>
+                <td>Empalmes mecánico universal monomodo</td>
+                <td>4.00</td>
+                <td>0.00</td>
+                <td>$ 14.25</td>
+                <td>$ 57.00</td>
+                <td>Items Inactivos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonUS-126\').click(function() {
+
+                    var Articulo = \'US-126\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="boton34155" data-bs-target="#modalCoverExample" data-id="34155">34155</a></td>
+ -->
+                <td><a id="boton34155" href="#">34155</a></td>
+                <td>Toalla seca s/pelusa 20x21cm (280 paños)</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 3</td>
+                <td>$ 6.00</td>
+                <td>Consumibles Otros</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#boton34155\').click(function() {
+
+                    var Articulo = \'34155\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC15" data-bs-target="#modalCoverExample" data-id="OPHEC15">OPHEC15</a></td>
+ -->
+                <td><a id="botonOPHEC15" href="#">OPHEC15</a></td>
+                <td>Limpiador de ferula 1.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC15\').click(function() {
+
+                    var Articulo = \'OPHEC15\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC25" data-bs-target="#modalCoverExample" data-id="OPHEC25">OPHEC25</a></td>
+ -->
+                <td><a id="botonOPHEC25" href="#">OPHEC25</a></td>
+                <td>Limpiador de ferula 2.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC25\').click(function() {
+
+                    var Articulo = \'OPHEC25\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPIFCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPIFCU09B0020RI9">OPPIFCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPIFCU09B0020RI9" href="#">OPPIFCU09B0020RI9</a></td>
+                <td>Pigtail FC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 5.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPIFCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPIFCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPJUSCUSCU09S0050RI2" data-bs-target="#modalCoverExample" data-id="OPJUSCUSCU09S0050RI2">OPJUSCUSCU09S0050RI2</a></td>
+ -->
+                <td><a id="botonOPJUSCUSCU09S0050RI2" href="#">OPJUSCUSCU09S0050RI2</a></td>
+                <td>Jumper SC/UPC-SC/UPC Monomodo 9/125 Simplex de 5m Riser de 2mm</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 9</td>
+                <td>$ 18.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPJUSCUSCU09S0050RI2\').click(function() {
+
+                    var Articulo = \'OPJUSCUSCU09S0050RI2\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonGTOSENVIO" data-bs-target="#modalCoverExample" data-id="GTOSENVIO">GTOSENVIO</a></td>
+ -->
+                <td><a id="botonGTOSENVIO" href="#">GTOSENVIO</a></td>
+                <td>Gastos de Envio</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 10</td>
+                <td>$ 10.00</td>
+                <td>Servicios Logisticos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonGTOSENVIO\').click(function() {
+
+                    var Articulo = \'GTOSENVIO\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+            </tbody>
+</table>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:30:33 --> odbc_fetch_array() expects parameter 1 to be resource, string given
+in APPPATH\Views\documentos\TablaPDF.php on line 26.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_fetch_array() expects parameter 1 to be resource, string given', 'APPPATH\\Views\\documentos\\TablaPDF.php', 26, [...])
+ 2 APPPATH\Views\documentos\TablaPDF.php(26): odbc_fetch_array('SELECT T1."ItemCode" "Articulo", T1."Dscription" "Descripcion", T1."Quantity" "Cantidad", T1."DiscPrcnt" "Descuento",
+	CASE WHEN T1."Currency" = \'USD\' THEN T1."Price" ELSE (T1."TotalSumSy"/T1."Quantity") END "Precio C/Dscto",
+	T1."TotalSumSy" "SubTotalUSD", T4."ItmsGrpNam" "Fam Articulos", 
+	CASE WHEN T3."U_ReelMeters" IS NULL THEN \'0\' ELSE T3."U_ReelMeters" END "Metros por carrete"
+ FROM HN_FIBREMEX.OQUT T0
+ INNER JOIN HN_FIBREMEX.QUT1 T1 ON T0."DocEntry" = T1."DocEntry"
+ INNER JOIN HN_FIBREMEX.OITM T3 ON T1."ItemCode" = T3."ItemCode"
+ INNER JOIN HN_FIBREMEX.OITB T4 ON T3."ItmsGrpCod" = T4."ItmsGrpCod"
+ WHERE T1."TreeType" <> \'I\' AND T0."DocNum" = \'4111\' 
+ ORDER BY T1."VisOrder"
+')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\TablaPDF.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/TablaPDF', [], true)
+ 6 APPPATH\Controllers\DocNum.php(70): view('documentos/TablaPDF', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:30:43 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\DocNum.php(72): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+<table class="table  table-dark table-striped" id="datatableDefault">
+    <button type="button" id="pdfboton" class="btn btn-danger"><i class="far fa-lg fa-fw me-2 fa-file-pdf"></i>PDF</button>
+    <thead>
+        <tr>
+            <th scope="col">Articulo</th>
+            <th scope="col">Descripcion</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Precio C/Dscto</th>
+            <th scope="col">SubTotal USD</th>
+            <th scope="col">Fam Articulos</th>
+            <th scope="col">Metros por carrete</th>
+
+        </tr>
+    </thead>
+    <tbody>
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonUS-126" data-bs-target="#modalCoverExample" data-id="US-126">US-126</a></td>
+ -->
+                <td><a id="botonUS-126" href="#">US-126</a></td>
+                <td>Empalmes mecánico universal monomodo</td>
+                <td>4.00</td>
+                <td>0.00</td>
+                <td>$ 14.25</td>
+                <td>$ 57.00</td>
+                <td>Items Inactivos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonUS-126\').click(function() {
+
+                    var Articulo = \'US-126\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="boton34155" data-bs-target="#modalCoverExample" data-id="34155">34155</a></td>
+ -->
+                <td><a id="boton34155" href="#">34155</a></td>
+                <td>Toalla seca s/pelusa 20x21cm (280 paños)</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 3</td>
+                <td>$ 6.00</td>
+                <td>Consumibles Otros</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#boton34155\').click(function() {
+
+                    var Articulo = \'34155\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC15" data-bs-target="#modalCoverExample" data-id="OPHEC15">OPHEC15</a></td>
+ -->
+                <td><a id="botonOPHEC15" href="#">OPHEC15</a></td>
+                <td>Limpiador de ferula 1.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC15\').click(function() {
+
+                    var Articulo = \'OPHEC15\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPHEC25" data-bs-target="#modalCoverExample" data-id="OPHEC25">OPHEC25</a></td>
+ -->
+                <td><a id="botonOPHEC25" href="#">OPHEC25</a></td>
+                <td>Limpiador de ferula 2.5mm</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 103.5</td>
+                <td>$ 103.50</td>
+                <td>Consumibles OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPHEC25\').click(function() {
+
+                    var Articulo = \'OPHEC25\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPIFCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPIFCU09B0020RI9">OPPIFCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPIFCU09B0020RI9" href="#">OPPIFCU09B0020RI9</a></td>
+                <td>Pigtail FC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 5.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPIFCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPIFCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPPISCU09B0020RI9" data-bs-target="#modalCoverExample" data-id="OPPISCU09B0020RI9">OPPISCU09B0020RI9</a></td>
+ -->
+                <td><a id="botonOPPISCU09B0020RI9" href="#">OPPISCU09B0020RI9</a></td>
+                <td>Pigtail SC/UPC Monomodo 9/125 de 2m Riser de 900um</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 5</td>
+                <td>$ 10.00</td>
+                <td>Jumper OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPPISCU09B0020RI9\').click(function() {
+
+                    var Articulo = \'OPPISCU09B0020RI9\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonOPJUSCUSCU09S0050RI2" data-bs-target="#modalCoverExample" data-id="OPJUSCUSCU09S0050RI2">OPJUSCUSCU09S0050RI2</a></td>
+ -->
+                <td><a id="botonOPJUSCUSCU09S0050RI2" href="#">OPJUSCUSCU09S0050RI2</a></td>
+                <td>Jumper SC/UPC-SC/UPC Monomodo 9/125 Simplex de 5m Riser de 2mm</td>
+                <td>2.00</td>
+                <td>0.00</td>
+                <td>$ 9</td>
+                <td>$ 18.00</td>
+                <td>Ensambles Espec. OPT</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonOPJUSCUSCU09S0050RI2\').click(function() {
+
+                    var Articulo = \'OPJUSCUSCU09S0050RI2\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+                    <tr>
+                <!-- <td><a href="#" data-bs-toggle="modal" id="botonGTOSENVIO" data-bs-target="#modalCoverExample" data-id="GTOSENVIO">GTOSENVIO</a></td>
+ -->
+                <td><a id="botonGTOSENVIO" href="#">GTOSENVIO</a></td>
+                <td>Gastos de Envio</td>
+                <td>1.00</td>
+                <td>0.00</td>
+                <td>$ 10</td>
+                <td>$ 10.00</td>
+                <td>Servicios Logisticos</td>
+                <td>0</td>
+
+
+
+            </tr>
+            <script>
+                $(\'#botonGTOSENVIO\').click(function() {
+
+                    var Articulo = \'GTOSENVIO\';
+                    var base = \'HN_FIBREMEX\';
+                    $("#DetallesArticulo").removeAttr("style");
+                    $("#DetallesArticulo").focus();
+                    $("#boton1").data(\'Articulo\', Articulo);
+                    $("#boton2").data(\'Articulo\', Articulo);
+                    $("#boton3").data(\'Articulo\', Articulo);
+                    $("#boton4").data(\'Articulo\', Articulo);
+                    $("#title").empty();
+                    $("#title").append(\'\' + Articulo);
+
+
+
+
+                });
+            </script>
+
+            </tbody>
+</table>
+<!-- DEBUG-VIEW ENDED 2 APPPATH\\Views\\documentos\\TablaPDF.php -->
+', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:31:21 --> strtoupper() expects parameter 1 to be string, array given
+in VENDORPATH\dompdf\dompdf\src\Dompdf.php on line 434.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strtoupper() expects parameter 1 to be string, array given', 'VENDORPATH\\dompdf\\dompdf\\src\\Dompdf.php', 434, [...])
+ 2 VENDORPATH\dompdf\dompdf\src\Dompdf.php(434): strtoupper([...])
+ 3 APPPATH\Controllers\DocNum.php(72): Dompdf\Dompdf->loadHtml('<!-- DEBUG-VIEW START 1 APPPATH\\Views\\documentos\\TablaPDF.php -->
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- DEBUG-VIEW ENDED 1 APPPATH\\Views\\documentos\\TablaPDF.php -->
+', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:32:51 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671477743.860968.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671477743.860968.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671477743.860968.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671478370.223187', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:35:06 --> Undefined index: DocNum
+in APPPATH\Controllers\DocNum.php on line 65.
+ 1 APPPATH\Controllers\DocNum.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: DocNum', 'APPPATH\\Controllers\\DocNum.php', 65, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:35:50 --> Undefined index: DocNum
+in APPPATH\Controllers\DocNum.php on line 65.
+ 1 APPPATH\Controllers\DocNum.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: DocNum', 'APPPATH\\Controllers\\DocNum.php', 65, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 13:35:55 --> Undefined index: DocNum
+in APPPATH\Controllers\DocNum.php on line 65.
+ 1 APPPATH\Controllers\DocNum.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: DocNum', 'APPPATH\\Controllers\\DocNum.php', 65, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:11:26 --> Call to a member function get_cellmap() on null
+in VENDORPATH\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(47): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 5 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+ 8 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 9 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\DocNum.php(76): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:11:28 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 130027520 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-19 14:11:45 --> Call to a member function get_cellmap() on null
+in VENDORPATH\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(47): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 5 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+ 8 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 9 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\DocNum.php(76): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:11:47 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 130027520 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-19 14:12:45 --> Call to a member function get_cellmap() on null
+in VENDORPATH\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(null)
+ 4 VENDORPATH\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(47): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 5 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRowGroup->reflow(Object(Dompdf\FrameDecorator\Block))
+ 6 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 7 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+ 8 VENDORPATH\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 9 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+10 VENDORPATH\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+11 VENDORPATH\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+12 VENDORPATH\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+13 APPPATH\Controllers\DocNum.php(76): Dompdf\Dompdf->render()
+14 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->ViewPDF()
+15 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+16 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+17 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:12:47 --> Allowed memory size of 268435456 bytes exhausted (tried to allocate 130027520 bytes)
+in APPPATH\Views\errors\html\error_exception.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-19 14:13:18 --> Trying to access array offset on value of type bool
+in APPPATH\Views\documentos\buscar.php on line 64.
+ 1 APPPATH\Views\documentos\buscar.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\documentos\\buscar.php', 64, [...])
+ 2 APPPATH\Views\documentos\buscar.php(54): buscar('4111111', 'Fib', 'HN_FIBREMEX')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 6 APPPATH\Controllers\DocNum.php(24): view('documentos/buscar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:27:48 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\inicio.php on line 696.
+ 1 APPPATH\Views\clientes\inicio.php(696): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\inicio.php', 696, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:28:22 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\inicio.php on line 696.
+ 1 APPPATH\Views\clientes\inicio.php(696): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\inicio.php', 696, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:28:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\clientes\inicio.php on line 699.
+ 1 APPPATH\Views\clientes\inicio.php(699): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\clientes\\inicio.php', 699, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 14:36:30 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(24): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 15:23:01 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671484401.261084.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671484401.261084.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671484401.261084.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671484980.963377', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:48:53 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1671484980.963377.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1671484980.963377.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1671484980.963377.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671490133.281341', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:52:43 --> Array to string conversion
+in APPPATH\Views\header.php on line 228.
+ 1 APPPATH\Views\header.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\header.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\inicio.php(1): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inicio.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 9 APPPATH\Controllers\Home.php(18): view('inicio')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:52:48 --> Array to string conversion
+in APPPATH\Views\header.php on line 228.
+ 1 APPPATH\Views\header.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\header.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\clientes\inicio.php(1): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 9 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:52:52 --> Array to string conversion
+in APPPATH\Views\header.php on line 228.
+ 1 APPPATH\Views\header.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\header.php', 228, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\clientes\inicio.php(1): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 9 APPPATH\Controllers\Asas.php(14): view('clientes/inicio')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:53:55 --> syntax error, unexpected '?'
+in APPPATH\Views\header.php on line 233.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 3 APPPATH\Views\inicio.php(1): CodeIgniter\View\View->include('header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\inicio.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 7 APPPATH\Controllers\Home.php(18): view('inicio')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 16:56:19 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect
+in APPPATH\Views\funciones.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;339 invalid number: Failed to parse constant a, SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\funciones.php', 76, [...])
+ 2 APPPATH\Views\funciones.php(76): odbc_exec(resource (odbc link), 'SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 3 APPPATH\Views\funciones.php(179): db_SAP('SELECT T0."DocNum" "Cotizacion", T0."CardCode" "Codigo", T0."CardName" "Cliente", T0."DocDate" "Fecha",
+	CASE WHEN T0."DocRate" = 1 THEN T0."SysRate" ELSE T0."DocRate" END "TC",
+	(T0."DocTotalSy" - T0."VatSumSy") "SubTotal USD"
+ FROM HN_FIBREMEX.OQUT T0
+ WHERE T0."DocNum" = \'a\' 
+')
+ 4 APPPATH\Views\documentos\buscar.php(61): ENCABEZADO('a', 'HN_FIBREMEX')
+ 5 APPPATH\Views\documentos\buscar.php(54): buscar('a', 'Fib', 'HN_FIBREMEX')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\documentos\\buscar.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('documentos/buscar', [], true)
+ 9 APPPATH\Controllers\DocNum.php(24): view('documentos/buscar')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\DocNum->Buscar()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DocNum))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 17:43:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to localhost:587 (No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+) in C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\Email\Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): un...', 'C:\\wamp64\\www\\A...', 1863, Array)
+#1 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\Email\Email.php(1863): fsockopen('localhost', 587, 10061, 'No se puede est...', 5)
+#2 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\Email\Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\Email\Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\Email\Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\AI-ML\app\Controllers\Home.php(226): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\AI-ML\app\Controllers\Home.php(108): App\Controllers\Home->SendEmail()
+#7 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->registrar()
+#8 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\AI-ML\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-12-19 17:43:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2022-12-19 17:43:12 --> 

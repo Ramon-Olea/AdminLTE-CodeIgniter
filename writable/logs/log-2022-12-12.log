@@ -1,0 +1,688 @@
+CRITICAL - 2022-12-12 08:42:55 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670634470.753260.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670634470.753260.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670634470.753260.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670856175.327009', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 09:41:22 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670859614.991296.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670859614.991296.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670859614.991296.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670859682.419698', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:18:01 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 5.
+ 1 APPPATH\Views\usuarios\actualizar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(121): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:18:56 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 5.
+ 1 APPPATH\Views\usuarios\actualizar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 5, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(121): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:25:16 --> Invalid file: useractualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useractualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('useractualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(124): view('useractualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:26:41 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:26:46 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:27:06 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:39:35 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:40:02 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:40:09 --> Undefined variable: data
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(123): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:44:18 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 122.
+ 1 APPPATH\Controllers\Home.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 122, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:49:28 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 31.
+ 1 APPPATH\Views\usuarios\listado.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(122): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('5')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:49:58 --> syntax error, unexpected 'print_r' (T_STRING), expecting ';' or ','
+in APPPATH\Views\usuarios\listado.php on line 2.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('usuarios/listado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('5')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:51:05 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(109): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:51:44 --> Invalid file: useractualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('useractualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('useractualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('useractualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:52:11 --> Invalid file: /useractualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/useractualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/useractualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('/useractualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:54:17 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(109): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:56:12 --> Undefined variable: datos
+in APPPATH\Controllers\Home.php on line 118.
+ 1 APPPATH\Controllers\Home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Controllers\\Home.php', 118, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->actualizar('6')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 10:56:27 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(118): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->actualizar('7')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:08:23 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670864645.301772.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670864645.301772.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670864645.301772.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670864902.778220', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:09:53 --> Invalid file: /useractualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/useractualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/useractualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('/useractualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:10:35 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(117): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:16:19 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(122): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:22 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 3.
+ 1 APPPATH\Views\usuarios\actualizar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 3, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(124): view('usuarios/actualizar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'css', 'vendor.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'css', 'app.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'plugins', 'jvectormap-next', 'jquery-jvectormap.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\cdn-cgi', 'scripts', '5c5dd728', 'cloudflare-static', 'email-decode.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'user', 'profile.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'js', 'vendor.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:17:37 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'plugins', 'jvectormap-next', 'jquery-jvectormap.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'css', 'vendor.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'css', 'app.min.css')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\cdn-cgi', 'scripts', '5c5dd728', 'cloudflare-static', 'email-decode.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'user', 'profile.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-1.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:01 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'img', 'cover', 'cover-thumb-2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:02 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'js', 'vendor.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:18:02 --> Undefined offset: 0
+in APPPATH\Controllers\Home.php on line 120.
+ 1 APPPATH\Controllers\Home.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 0', 'APPPATH\\Controllers\\Home.php', 120, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('FCPATH\\assets', 'js', 'app.min.js')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:19:09 --> Too few arguments to function App\Controllers\Home::useractualizar(), 0 passed in C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:22:04 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:23:38 --> Invalid file: ../header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../header.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('../header', null, true)
+ 3 APPPATH\Views\usuarios\actualizar.php(1): CodeIgniter\View\View->include('../header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 7 APPPATH\Controllers\Home.php(122): view('usuarios/actualizar', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('7')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:37:47 --> Undefined variable: datos
+in APPPATH\Views\usuarios\listado.php on line 30.
+ 1 APPPATH\Views\usuarios\listado.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\listado.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(121): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:38:05 --> Undefined variable: datosa
+in APPPATH\Controllers\Home.php on line 121.
+ 1 APPPATH\Controllers\Home.php(121): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datosa', 'APPPATH\\Controllers\\Home.php', 121, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:38:19 --> Undefined variable: datos
+in APPPATH\Views\usuarios\listado.php on line 30.
+ 1 APPPATH\Views\usuarios\listado.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\listado.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(121): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:38:55 --> Undefined variable: mensaje
+in APPPATH\Views\usuarios\listado.php on line 55.
+ 1 APPPATH\Views\usuarios\listado.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mensaje', 'APPPATH\\Views\\usuarios\\listado.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(125): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:39:04 --> Undefined variable: Usuarios
+in APPPATH\Controllers\Home.php on line 119.
+ 1 APPPATH\Controllers\Home.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: Usuarios', 'APPPATH\\Controllers\\Home.php', 119, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('4')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:45:26 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670866494.575921.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670866494.575921.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670866494.575921.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670867125.693678', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:48:11 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 5.
+ 1 APPPATH\Views\usuarios\actualizar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:48:48 --> Undefined variable: datos
+in APPPATH\Views\usuarios\actualizar.php on line 5.
+ 1 APPPATH\Views\usuarios\actualizar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: datos', 'APPPATH\\Views\\usuarios\\actualizar.php', 5, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:49:32 --> Invalid file: /useractualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/useractualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/useractualizar', [], true)
+ 3 APPPATH\Controllers\Home.php(122): view('/useractualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->obteneruser('6')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:58:43 --> Invalid file: usuarios/actualizar/7.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('usuarios/actualizar/7.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar/7', [], true)
+ 3 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar/7')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar('7')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 11:59:26 --> Too few arguments to function App\Controllers\Home::useractualizar(), 0 passed in C:\wamp64\www\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Home.php on line 106.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:08:15 --> include(funciones.php): failed to open stream: No such file or directory
+in APPPATH\Views\usuarios\actualizar.php on line 4.
+ 1 APPPATH\Views\usuarios\actualizar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(funciones.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\usuarios\\actualizar.php', 4, [])
+ 2 APPPATH\Views\usuarios\actualizar.php(4): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 6 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:28:24 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670872407.716401.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670872407.716401.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670872407.716401.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670873303.838567', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:34:14 --> Undefined variable: id
+in APPPATH\Views\usuarios\actualizar.php on line 6.
+ 1 APPPATH\Views\usuarios\actualizar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\usuarios\\actualizar.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:36:57 --> Undefined variable: id
+in APPPATH\Views\usuarios\actualizar.php on line 6.
+ 1 APPPATH\Views\usuarios\actualizar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\usuarios\\actualizar.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:37:33 --> Undefined variable: id
+in APPPATH\Views\usuarios\actualizar.php on line 6.
+ 1 APPPATH\Views\usuarios\actualizar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id', 'APPPATH\\Views\\usuarios\\actualizar.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 13:50:01 --> Undefined variable: consu_usuario
+in APPPATH\Views\usuarios\listado.php on line 61.
+ 1 APPPATH\Views\usuarios\listado.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: consu_usuario', 'APPPATH\\Views\\usuarios\\listado.php', 61, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(78): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 14:19:22 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\usuarios\actualizar.php on line 6.
+ 1 APPPATH\Views\usuarios\actualizar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\usuarios\\actualizar.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 14:27:39 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670875195.634595.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670875195.634595.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670875195.634595.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670876859.171860', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 14:27:56 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670876794.603516.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670876794.603516.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670876794.603516.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670876876.427225', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 14:28:41 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670876820.663898.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670876820.663898.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670876820.663898.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670876920.761719', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 14:28:47 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\usuarios\actualizar.php on line 6.
+ 1 APPPATH\Views\usuarios\actualizar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\usuarios\\actualizar.php', 6, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\actualizar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/actualizar', [], true)
+ 5 APPPATH\Controllers\Home.php(108): view('usuarios/actualizar')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->useractualizar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 15:29:27 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670879995.575235.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670879995.575235.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670879995.575235.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670880567.356974', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-12 16:45:44 --> Invalid file: clientes.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes', [], true)
+ 3 APPPATH\Controllers\Home.php(26): view('clientes')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->clientes()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

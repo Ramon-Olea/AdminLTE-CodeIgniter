@@ -1,0 +1,172 @@
+CRITICAL - 2022-12-09 20:42:19 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:42:51 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:43:00 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:43:19 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:45:52 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:54:26 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 20:54:54 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 21:00:55 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 21:01:13 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 21:01:14 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 21:01:16 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-12-09 21:01:21 --> Class 'Locale' not found
+in SYSTEMPATH\CodeIgniter.php on line 186.
+ 1 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2022-12-09 14:07:01 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'login' in C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'login', 3306, '', 0)
+#1 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\AI-ML\app\Models\usuarios.php(10): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\AI-ML\app\Controllers\Home.php(31): App\Models\Usuarios->obtenerUsuario(Array)
+#6 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#7 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\AI-ML\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'login' in C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\AI-ML\app\Models\usuarios.php(10): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\AI-ML\app\Controllers\Home.php(31): App\Models\Usuarios->obtenerUsuario(Array)
+#5 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\AI-ML\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\AI-ML\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-09 14:07:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'login'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `t_usuarios`
+WHERE `usuario` = :usuario:', [...], false)
+ 3 APPPATH\Models\usuarios.php(10): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(31): App\Models\Usuarios->obtenerUsuario([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->login()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 15:48:57 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670621031.790867.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670621031.790867.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670621031.790867.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670622537.184186', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 17:06:12 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670622860.407119.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670622860.407119.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670622860.407119.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670627171.843861', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:56:55 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 28.
+ 1 APPPATH\Views\usuarios\listado.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:57:02 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 28.
+ 1 APPPATH\Views\usuarios\listado.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:58:26 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 31.
+ 1 APPPATH\Views\usuarios\listado.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:58:38 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 31.
+ 1 APPPATH\Views\usuarios\listado.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:59:05 --> Trying to get property 'id_usuario' of non-object
+in APPPATH\Views\usuarios\listado.php on line 31.
+ 1 APPPATH\Views\usuarios\listado.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_usuario\' of non-object', 'APPPATH\\Views\\usuarios\\listado.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:59:24 --> Undefined property: mysqli::$id_usuario
+in APPPATH\Views\usuarios\listado.php on line 31.
+ 1 APPPATH\Views\usuarios\listado.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$id_usuario', 'APPPATH\\Views\\usuarios\\listado.php', 31, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-09 18:59:50 --> Undefined property: mysqli::$id_usuario
+in APPPATH\Views\usuarios\listado.php on line 32.
+ 1 APPPATH\Views\usuarios\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: mysqli::$id_usuario', 'APPPATH\\Views\\usuarios\\listado.php', 32, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\listado.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/listado', [], true)
+ 5 APPPATH\Controllers\Home.php(74): view('usuarios/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

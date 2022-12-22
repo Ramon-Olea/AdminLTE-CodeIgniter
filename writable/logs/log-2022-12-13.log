@@ -1,0 +1,817 @@
+CRITICAL - 2022-12-13 09:35:59 --> include(SQLfibremex_ODBC.php): failed to open stream: No such file or directory
+in APPPATH\Views\clientes\inicio.php on line 6.
+ 1 APPPATH\Views\clientes\inicio.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(SQLfibremex_ODBC.php): failed to open stream: No such file or directory', 'APPPATH\\Views\\clientes\\inicio.php', 6, [...])
+ 2 APPPATH\Views\clientes\inicio.php(6): include()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:36:12 --> Undefined variable: OpHost
+in APPPATH\Views\clientes\inicio.php on line 18.
+ 1 APPPATH\Views\clientes\inicio.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: OpHost', 'APPPATH\\Views\\clientes\\inicio.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:36:29 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670944180.550921.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670944180.550921.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670944180.550921.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670945789.458761', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:37:24 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscarSQL.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 4 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->buscarSQL()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:38:41 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscarSQL.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 4 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->busquedaClientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:38:42 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscarSQL.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 4 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->busquedaClientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:51:23 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscar.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(113): view('clientes/buscar')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->B()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:51:43 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscar.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(113): view('clientes/buscar')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->B()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:51:50 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscar.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(113): view('clientes/buscar')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->B()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:52:35 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\buscar.php on line 6.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscar', [], true)
+ 4 APPPATH\Controllers\Home.php(113): view('clientes/buscar')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->B()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:52:51 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:53:38 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:54:21 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:54:56 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:54:58 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:55:14 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:57:08 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:57:44 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:58:38 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:58:53 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:59:15 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:59:21 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:59:21 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:59:28 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 09:59:28 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:01:11 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:01:11 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:04:07 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:04:23 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:05:39 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:06:01 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:06:02 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:06:03 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:09:40 --> Call to undefined function odbc_connect()
+in APPPATH\Views\clientes\inicio.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:11:47 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:11:48 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:13:49 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:13:50 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:13:53 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:13:59 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:14:00 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:15:02 --> Invalid file: clientes/buscarSQL.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('clientes/buscarSQL.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/buscarSQL', [], true)
+ 3 APPPATH\Controllers\Asas.php(16): view('clientes/buscarSQL')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->B()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:18:20 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670947167.466025.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670947167.466025.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670947167.466025.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670948300.419327', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:21:26 --> Undefined variable: conn
+in APPPATH\Views\clientes\inicio.php on line 123.
+ 1 APPPATH\Views\clientes\inicio.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: conn', 'APPPATH\\Views\\clientes\\inicio.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:23:44 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 134.
+ 1 APPPATH\Views\clientes\inicio.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:24:00 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 134.
+ 1 APPPATH\Views\clientes\inicio.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:24:32 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 151.
+ 1 APPPATH\Views\clientes\inicio.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:24:33 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 151.
+ 1 APPPATH\Views\clientes\inicio.php(151): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 151, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:26:28 --> Undefined index: cc
+in APPPATH\Views\clientes\inicio.php on line 114.
+ 1 APPPATH\Views\clientes\inicio.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: cc', 'APPPATH\\Views\\clientes\\inicio.php', 114, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:30:43 --> Undefined index: Proveedor
+in APPPATH\Views\clientes\inicio.php on line 146.
+ 1 APPPATH\Views\clientes\inicio.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Proveedor', 'APPPATH\\Views\\clientes\\inicio.php', 146, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:53:55 --> Undefined variable: color
+in APPPATH\Views\clientes\inicio.php on line 392.
+ 1 APPPATH\Views\clientes\inicio.php(392): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: color', 'APPPATH\\Views\\clientes\\inicio.php', 392, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 10:57:07 --> Undefined variable: fecha
+in APPPATH\Views\clientes\inicio.php on line 535.
+ 1 APPPATH\Views\clientes\inicio.php(535): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fecha', 'APPPATH\\Views\\clientes\\inicio.php', 535, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:00:33 --> Trying to get property 'num_rows' of non-object
+in APPPATH\Views\clientes\inicio.php on line 569.
+ 1 APPPATH\Views\clientes\inicio.php(569): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'num_rows\' of non-object', 'APPPATH\\Views\\clientes\\inicio.php', 569, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:01:02 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\clientes\inicio.php on line 569.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 4 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:01:53 --> Undefined variable: regresa
+in APPPATH\Views\clientes\inicio.php on line 570.
+ 1 APPPATH\Views\clientes\inicio.php(570): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: regresa', 'APPPATH\\Views\\clientes\\inicio.php', 570, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:01:58 --> Undefined variable: descCR
+in APPPATH\Views\clientes\inicio.php on line 573.
+ 1 APPPATH\Views\clientes\inicio.php(573): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: descCR', 'APPPATH\\Views\\clientes\\inicio.php', 573, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:03:47 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\funciones.php on line 108.
+ 1 APPPATH\Views\clientes\inicio.php(568): select_dato_query('SELECT * FROM vtas_autorizacion_credito WHERE cardcode = \'2014-012926\' AND sociedad = \'Fibremex\' AND estatus=\'Pendiente\'')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:05:03 --> Undefined variable: regresa
+in APPPATH\Views\clientes\inicio.php on line 570.
+ 1 APPPATH\Views\clientes\inicio.php(570): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: regresa', 'APPPATH\\Views\\clientes\\inicio.php', 570, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:05:10 --> Undefined variable: regresa
+in APPPATH\Views\clientes\inicio.php on line 569.
+ 1 APPPATH\Views\clientes\inicio.php(569): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: regresa', 'APPPATH\\Views\\clientes\\inicio.php', 569, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:05:15 --> Undefined variable: descCR
+in APPPATH\Views\clientes\inicio.php on line 577.
+ 1 APPPATH\Views\clientes\inicio.php(577): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: descCR', 'APPPATH\\Views\\clientes\\inicio.php', 577, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:05:20 --> syntax error, unexpected '?>'
+in APPPATH\Views\clientes\inicio.php on line 577.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 3 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 11:52:04 --> Undefined variable: row_abiertas
+in APPPATH\Views\clientes\inicio.php on line 677.
+ 1 APPPATH\Views\clientes\inicio.php(677): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row_abiertas', 'APPPATH\\Views\\clientes\\inicio.php', 677, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 12:55:20 --> Undefined index: id_area1
+in APPPATH\Views\clientes\inicio.php on line 1175.
+ 1 APPPATH\Views\clientes\inicio.php(1175): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_area1', 'APPPATH\\Views\\clientes\\inicio.php', 1175, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 13:55:36 --> Undefined variable: eti
+in APPPATH\Views\clientes\inicio.php on line 1046.
+ 1 APPPATH\Views\clientes\inicio.php(1046): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eti', 'APPPATH\\Views\\clientes\\inicio.php', 1046, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 13:57:23 --> unlink(C:\wamp64\www\AI-ML\writable\debugbar/debugbar_1670960106.681502.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\wamp64\\www\\AI-ML\\writable\\debugbar/debugbar_1670960106.681502.json): No such file or directory', 'SYSTEMPATH\\Debug\\Toolbar\\Collectors\\History.php', 76, [...])
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(76): unlink('ROOTPATH\\writable\\debugbar/debugbar_1670960106.681502.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1670961442.912790', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(477): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(328): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:05:27 --> Undefined variable: colorrgbss
+in APPPATH\Views\clientes\inicio.php on line 931.
+ 1 APPPATH\Views\clientes\inicio.php(931): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: colorrgbss', 'APPPATH\\Views\\clientes\\inicio.php', 931, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:07:43 --> Undefined variable: colorrgbss
+in APPPATH\Views\clientes\inicio.php on line 931.
+ 1 APPPATH\Views\clientes\inicio.php(931): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: colorrgbss', 'APPPATH\\Views\\clientes\\inicio.php', 931, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:21:47 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1105.
+ 1 APPPATH\Views\clientes\inicio.php(1105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:22:13 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1105.
+ 1 APPPATH\Views\clientes\inicio.php(1105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:23:37 --> Trying to access array offset on value of type bool
+in APPPATH\Views\clientes\inicio.php on line 1105.
+ 1 APPPATH\Views\clientes\inicio.php(1105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type bool', 'APPPATH\\Views\\clientes\\inicio.php', 1105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:24:41 --> Undefined variable: fecha
+in APPPATH\Views\clientes\inicio.php on line 1105.
+ 1 APPPATH\Views\clientes\inicio.php(1105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fecha', 'APPPATH\\Views\\clientes\\inicio.php', 1105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 15:25:01 --> Undefined variable: fecha6
+in APPPATH\Views\clientes\inicio.php on line 1105.
+ 1 APPPATH\Views\clientes\inicio.php(1105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: fecha6', 'APPPATH\\Views\\clientes\\inicio.php', 1105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:23:21 --> Undefined variable: eti
+in APPPATH\Views\clientes\inicio.php on line 1329.
+ 1 APPPATH\Views\clientes\inicio.php(1329): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: eti', 'APPPATH\\Views\\clientes\\inicio.php', 1329, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:24:13 --> Undefined variable: data
+in APPPATH\Views\clientes\inicio.php on line 1331.
+ 1 APPPATH\Views\clientes\inicio.php(1331): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'APPPATH\\Views\\clientes\\inicio.php', 1331, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:24:31 --> Undefined variable: schema
+in APPPATH\Views\clientes\inicio.php on line 1368.
+ 1 APPPATH\Views\clientes\inicio.php(1368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: schema', 'APPPATH\\Views\\clientes\\inicio.php', 1368, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:24:57 --> Undefined variable: cc
+in APPPATH\Views\clientes\inicio.php on line 1368.
+ 1 APPPATH\Views\clientes\inicio.php(1368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cc', 'APPPATH\\Views\\clientes\\inicio.php', 1368, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 5 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:25:08 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;.&quot;: line 1 col 6 (at pos 6), SQL state 37000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 1368.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] Syntax error or access violation;257 sql syntax error: incorrect syntax near &quot;.&quot;: line 1 col 6 (at pos 6), SQL state 37000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 1368, [...])
+ 2 APPPATH\Views\clientes\inicio.php(1368): odbc_exec(resource (odbc link), 'CALL ."FIB_Historico_de_ventas"(\'\');')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-13 17:26:29 --> odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect
+in APPPATH\Views\clientes\inicio.php on line 989.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'odbc_exec(): SQL error: [SAP AG][LIBODBCHDB DLL][HDBODBC] General error;260 invalid column name: T1.U_MotNoVenta: line 5 col 70 (at pos 543), SQL state S1000 in SQLExecDirect', 'APPPATH\\Views\\clientes\\inicio.php', 989, [...])
+ 2 APPPATH\Views\clientes\inicio.php(989): odbc_exec(resource (odbc link), 'SELECT T1."DocNum" AS "Documento", TO_DATE(T1."DocDate") AS "Fecha", T1."CardCode" AS "Codigo", T1."CardName" AS "Cliente", 
+                                                            SUM((T0."TotalSumSy" / T0."Quantity") * T0."Quantity") AS "Subtotal", SUM(((T0."TotalSumSy" +
+                                                            T0."VatSumSy") / T0."Quantity") * T0."Quantity") AS "TotalUSD", 
+                                                            CASE 
+                                                                WHEN T1."U_MotNoVenta" = 1 THEN \'Calidad en el producto\' 
+                                                                WHEN T1."U_MotNoVenta" = 2 THEN \'Cambio de contacto o personal en la empresa\' 
+                                                                WHEN T1."U_MotNoVenta" = 3 THEN \'Falta de stock\' 
+                                                                WHEN T1."U_MotNoVenta" = 4 THEN \'Tiempo de entrega\' 
+                                                                WHEN T1."U_MotNoVenta" = 5 THEN \'Precio\' 
+                                                                WHEN T1."U_MotNoVenta" = 6 THEN \'Optronics no es certificable\' 
+                                                                WHEN T1."U_MotNoVenta" = 7 THEN \'Credito\' 
+                                                                WHEN T1."U_MotNoVenta" = 8 THEN \'No tener cedis\' 
+                                                                WHEN T1."U_MotNoVenta" = 9 THEN \'Proyecto parado del cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 10 THEN \'Cambio de marca en Fibremex (Producto)\' 
+                                                                WHEN T1."U_MotNoVenta" = 11 THEN \'Modificacion de datos fiscales del cliente (direccion)\' 
+                                                                WHEN T1."U_MotNoVenta" = 12 THEN \'Cotizacion pasa de Lead a Cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = 13 THEN \'Desviacion en la cadena comercial\' 
+                                                                WHEN T1."U_MotNoVenta" = 14 THEN \'Minimo de compra para con proveedor\' 
+                                                                WHEN T1."U_MotNoVenta" = 15 THEN \'Sin informacion de usuario a final a cliente\' 
+                                                                WHEN T1."U_MotNoVenta" = \'\' OR T1."U_MotNoVenta" IS NULL THEN \'Sin Informacion\' 
+                                                            END AS "Motivo de no venta" 
+                                                        FROM HN_OPTRONICS.QUT1 T0 
+                                                            INNER JOIN HN_OPTRONICS.OQUT T1 ON T0."DocEntry" = T1."DocEntry" 
+                                                        WHERE T0."LineStatus" = \'C\' AND T0."TargetType" = -1 AND T0."OpenQty" = 0 AND T0."InvntSttus" = \'O\' AND
+                                                            T1."CardCode" = \'C0074\' 
+                                                        GROUP BY T1."DocNum", T1."DocDate", T1."CardCode", T1."CardName", T1."U_MotNoVenta" 
+                                                        ORDER BY "DocNum" DESC;')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\clientes\\inicio.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('clientes/inicio', [], true)
+ 6 APPPATH\Controllers\Asas.php(12): view('clientes/inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Asas->clientes()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Asas))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
