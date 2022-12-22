@@ -1,36 +1,48 @@
-<?= $this->include('header')  ?>
+<?= $this->extend('header');
+
+?>
 <!-- SE INCLUYE LA PLANTILLA -->
-
-<div class="register">
-
-    <div class="register-content">
-        <form action="<?php echo base_url('/registrar')?>" method="POST">
-            <h1 class="text-center">Crear Usuario</h1>
-            <div class="mb-3">
-                <label class="form-label">Usuario <span class="text-danger">*</span></label>
-                <input type="text" name="usuario" class="form-control form-control-lg bg-white bg-opacity-5" value="" required/>
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Contraseña <span class="text-danger">*</span></label>
-                <input type="password" name="contra" class="form-control form-control-lg bg-white bg-opacity-5" value="" required />
-            </div>
-
-            <div class="mb-3">
-                <label class="form-label">Rol <span class="text-danger">*</span></label>
-                <select class="form-select form-select-lg bg-white bg-opacity-5" name="rol" required>
-                  <option  value="">-- seleccione una opcion -- </option>
-                    <option  value="general">general</option>
-                    <option  value="sistemas">sistemas</option>
-
-                </select>
-            </div>
-          
-            <div class="mb-3">
-                <button type="submit" class="btn btn-outline-theme btn-lg d-block w-100">CREAR</button>
-            </div>
-            
-        </form>
+<?= $this->section('content') ?>
+<br><br>
+<div class="card card-info text-center">
+    <div class="card-header ">
+        <h3 class="card-title text-center">CREAR USUARIO</h3>
     </div>
 
+
+    <form action="<?php echo base_url('/registrar') ?>" method="POST">
+        <div class="card-body">
+            <div class="form-group row">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Usuario</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="usuario" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="contra" name="contra" placeholder="Password" required>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Rol</label>
+                <div class="col-sm-10">
+                    <select class="form-control" name="rol" required>
+                        <option value="">-- seleccione una opcion -- </option>
+                        <option value="general">general</option>
+                        <option value="sistemas">sistemas</option>
+
+                    </select>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card-footer">
+            <button type="submit" class="btn btn-info">CREAR</button>
+        </div>
+
+    </form>
 </div>
+
+<?= $this->endSection() ?>

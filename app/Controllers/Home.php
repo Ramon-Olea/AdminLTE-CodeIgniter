@@ -173,6 +173,7 @@ class Home extends BaseController
     }
     public function actualizarperfil()
     {
+      
         $id = $_POST['id_usuario'];
         $foto_name = isset($_FILES["foto"]["name"]) ? $_FILES["foto"]["name"] : '';
         $foto_size = isset($_FILES["foto"]["size"]) ? $_FILES["foto"]["size"] : '';

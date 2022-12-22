@@ -60,3 +60,55 @@ in APPPATH\Views\header.php on line 130.
  8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
 10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 16:45:27 --> Undefined index: id_usuario
+in APPPATH\Controllers\Home.php on line 150.
+ 1 APPPATH\Controllers\Home.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_usuario', 'APPPATH\\Controllers\\Home.php', 150, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 16:58:56 --> Call to a member function fetch_array() on bool
+in APPPATH\Views\funciones.php on line 95.
+ 1 APPPATH\Views\usuarios\perfil.php(4): select_dato_where('t_usuarios', 'id_usuario', null)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 17:04:27 --> Undefined variable: mensaje
+in APPPATH\Views\usuarios\perfil.php on line 336.
+ 1 APPPATH\Views\usuarios\perfil.php(336): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mensaje', 'APPPATH\\Views\\usuarios\\perfil.php', 336, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 17:05:55 --> Undefined variable: mensaje
+in APPPATH\Views\usuarios\perfil.php on line 338.
+ 1 APPPATH\Views\usuarios\perfil.php(338): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mensaje', 'APPPATH\\Views\\usuarios\\perfil.php', 338, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\usuarios\\perfil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/perfil', [], true)
+ 5 APPPATH\Controllers\Home.php(172): view('usuarios/perfil')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 17:06:44 --> Undefined variable: mensaje
+in APPPATH\Views\header.php on line 211.
+ 1 APPPATH\Views\header.php(211): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: mensaje', 'APPPATH\\Views\\header.php', 211, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('usuarios/perfil', [], true)
+ 6 APPPATH\Controllers\Home.php(172): view('usuarios/perfil')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->perfil()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
