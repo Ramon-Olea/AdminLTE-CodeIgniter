@@ -5,16 +5,19 @@
 <?= $this->section('content') ?>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
+
 <br><br>
 <div class="card card-info text-center">
     <div class="card-header ">
         <h3 class="card-title text-center">Listado de Usuarios</h3>
-        <a href="<?php echo base_url('/usercrear') ?>" class="btn btn-outline-theme"><i class="fa fa-plus-circle fa-fw me-1"></i> Crear Usuario</a>
 
     </div>
-<br>
-    <table class="table  table-striped" id="users-list">
-     <thead>
+    <br>
+    <a href="<?php echo base_url('/usercrear') ?>" class="btn btn-light"><i class="fa fa-plus-circle fa-fw me-1"></i> Crear Usuario</a>
+
+    <div class="table-responsive" id="mydatatable-container">
+    <table class="records_list table table-striped table-bordered table-hover" id="mydatatable">
+        <thead>
             <tr>
                 <th scope="col">ID</th>
                 <th scope="col">usuario</th>
@@ -24,6 +27,15 @@
 
             </tr>
         </thead>
+        <tfoot>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">usuario</th>
+                <th scope="col">rol</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </tfoot>
         <tbody>
             <?php foreach ($datos as $key) : ?>
 
@@ -77,11 +89,43 @@
 
         </tbody>
     </table>
-    </form>
+</div>
 </div>
 
 
 <script>
+    $(document).ready(function() {
+        $('#mydatatable tfoot th').each(function() {
+            var title = $(this).text();
+            $(this).html('<input type="text" placeholder="Filtrar.." />');
+        });
+
+        var table = $('#mydatatable').DataTable({
+            "dom": 'B<"float-left"i><"float-right"f>t<"float-left"l><"float-right"p><"clearfix">',
+            "responsive": false,
+            "language": {
+                "url": "https://cdn.datatables.net/plug-ins/1.10.19/i18n/Spanish.json"
+            },
+            "order": [
+                [0, "desc"]
+            ],
+            "initComplete": function() {
+                this.api().columns().every(function() {
+                    var that = this;
+
+                    $('input', this.footer()).on('keyup change', function() {
+                        if (that.search() !== this.value) {
+                            that
+                                .search(this.value)
+                                .draw();
+                        }
+                    });
+                })
+            }
+        });
+    });
+
+
     let mensaje = '<?php echo $mensaje; ?>';
     if (mensaje == '1') {
         const Toast = Swal.mixin({

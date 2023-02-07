@@ -58,7 +58,7 @@
 						</a>
 						<div class="dropdown-divider"></div>
 						<a href="<?php echo base_url('/salir') ?>" class="dropdown-item">
-							<i class="fas fa-users mr-2"></i> SALIR
+							<i class="fas fa-power-off mr-2"></i> SALIR
 						</a>
 
 						<div class="dropdown-divider"></div>
@@ -130,7 +130,7 @@
 						<li class="nav-item ">
 							<a href="<?php echo base_url('/inicio') ?>" class="nav-link <?= $URL == 'inicio' ? 'active' : '' ?>">
 								<span class="menu-icon"><i class="fas fa-lg fa-fw me-2 fa-home"></i></span>
-								<span class="menu-text">INICIO</span>
+								<p class="menu-text">INICIO</p>
 							</a>
 						</li>
 
@@ -138,7 +138,7 @@
 						<li class="nav-item ">
 							<a href="<?php echo base_url('/usuarios') ?>" class="nav-link <?= $URL == 'usuarios' ? 'active' : '' ?>">
 								<span class="menu-icon"><i class="fas fa-lg fa-fw me-2 fa-user-alt"></i></span>
-								<span class="menu-text">USUARIOS</span>
+								<p class="menu-text">USUARIOS</p>
 							</a>
 						</li>
 
