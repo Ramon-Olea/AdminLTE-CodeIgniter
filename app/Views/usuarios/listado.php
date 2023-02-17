@@ -53,29 +53,16 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <script>
-                                      $(function() {
+                                    $(function() {
 
                                         $('#boton<?= $key->id_usuario ?>').click(function() {
 
                                             var $this = $("#boton<?= $key->id_usuario ?>").data("elemento<?= $key->id_usuario ?>"); //submit button selector using ID
-                                            // Ajax config
-                                            $.ajax({
-                                                type: "POST",
-                                                url: "<?php echo base_url('/useractualizar') ?>",
-                                                data: "id=" + $this,
-                                                dataType: "html",
-                                                sync: false,
-                                                beforeSend: function() {
-                                                    //imagen de carga
-                                                    $("#result").html("<p align='center'><div class='spinner-grow text-primary'></div></p>");
-                                                },
-                                                error: function() {
-                                                    alert("error peticion ajax");
-                                                },
-                                                success: function(data) {
-                                                    $("#result").empty();
-                                                    $("#result").append(data);
-                                                }
+
+                                            const misDatos = "id=" + $this;
+                                            enviarDatosPorAjax(misDatos, "<?php echo base_url('/useractualizar') ?>", function(respuesta) {
+                                                const resultado = document.getElementById("result");
+                                                resultado.innerHTML = respuesta;
                                             });
 
                                         });
