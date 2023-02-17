@@ -186,6 +186,8 @@
 
 	<!-- jQuery -->
 	<script src="template/plugins/jquery/jquery.min.js"></script>
+	<script src="assets/js/funciones.js"></script>
+
 	<!-- Bootstrap -->
 	<script src="template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 	<!-- AdminLTE -->
