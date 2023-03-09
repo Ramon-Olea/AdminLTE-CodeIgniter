@@ -55,11 +55,13 @@ $routes->get('/usereliminar/(:any)', 'Home::usereliminar/$1');
 
 /* FIN RUTAS USUARIOS */
 
-/* RUTAS CLIENTES */
-$routes->get('/clientes', 'Asas::clientes');
-$routes->get('/busqueda', 'Asas::busqueda');
-$routes->post('/B', 'Asas::B');
-$routes->post('/docdetalle', 'Asas::docdetalle');
+/* RUTAS Blog */
+$routes->get('/blog', 'Blog::blog');
+$routes->get('/crearblog', 'Blog::crearblog');
+$routes->post('/registrarblog', 'Blog::registrarblog');
+
+$routes->get('/obtenerblog/(:any)', 'Blog::obtenerblog/$1');
+$routes->get('/blogeliminar/(:any)', 'Blog::blogeliminar/$1');
 
 
 

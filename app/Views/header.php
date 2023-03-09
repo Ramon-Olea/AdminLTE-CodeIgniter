@@ -15,6 +15,15 @@
 	<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="template/dist/css/adminlte.min.css">
+	<style>
+		tfoot input {
+			width: 100% !important;
+		}
+
+		tfoot {
+			display: table-header-group !important;
+		}
+	</style>
 </head>
 <!--
 `body` tag options:
@@ -134,7 +143,12 @@
 							</a>
 						</li>
 
-
+						<li class="nav-item ">
+							<a href="<?php echo base_url('/blog') ?>" class="nav-link <?= $URL == 'blog' ? 'active' : '' ?>">
+								<span class="menu-icon"><i class="fas fa-lg fa-fw me-2 fa-user-alt"></i></span>
+								<p class="menu-text">Blog</p>
+							</a>
+						</li>
 						<li class="nav-item ">
 							<a href="<?php echo base_url('/usuarios') ?>" class="nav-link <?= $URL == 'usuarios' ? 'active' : '' ?>">
 								<span class="menu-icon"><i class="fas fa-lg fa-fw me-2 fa-user-alt"></i></span>
@@ -152,12 +166,27 @@
 		<!-- Content Wrapper. Contains page content -->
 		<div class="content-wrapper">
 			<div class="container-fluid">
-				<div class="row">
-					<div class="col-12">
-						<?= $this->renderSection('content') ?>
-
+			<!-- 	<section class="content-header">
+					<div class="container-fluid">
+						<div class="row mb-2">
+							<div class="col-sm-6">
+								<h1>Icons</h1>
+							</div>
+							<div class="col-sm-6">
+								<ol class="breadcrumb float-sm-right">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<li class="breadcrumb-item active">Icons</li>
+								</ol>
+							</div>
+						</div>
 					</div>
-				</div>
+				</section> -->
+				<!-- <div class="row">
+					<div class="col-12"> -->
+				<?= $this->renderSection('content') ?>
+
+				<!-- 	</div>
+				</div> -->
 			</div>
 
 
@@ -199,16 +228,131 @@
 	<script src="template/dist/js/demo.js"></script>
 	<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 	<script src="template/dist/js/pages/dashboard3.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
+	<script src="assets/plugins/tinymce5.7/tinymce.min.js" referrerpolicy="origin"></script> 
+	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 
-	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script>
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.js"></script> -->
+
+	<!-- 	<link href="assets/plugins/DataTablesdatatables.min.css" rel="stylesheet"/>
+	<script src="assets/plugins/DataTablesdatatables.min.js"></script> -->
+	<link href="https://cdn.datatables.net/v/bs5/jq-3.6.0/jszip-2.5.0/dt-1.13.3/af-2.5.2/b-2.3.5/b-colvis-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.min.css" rel="stylesheet" />
+	<script type="text/javascript">
+  function example_image_upload_handler(blobInfo, success, failure, progress) {
+    var xhr, formData;
+
+    xhr = new XMLHttpRequest();
+    xhr.withCredentials = false;
+    xhr.open('POST', 'postAcceptor.php');
+
+    xhr.upload.onprogress = function(e) {
+      progress(e.loaded / e.total * 100);
+    };
+
+    xhr.onload = function() {
+      var json;
+
+      if (xhr.status === 403) {
+        failure('HTTP Error: ' + xhr.status, {
+          remove: true
+        });
+        return;
+      }
+
+      if (xhr.status < 200 || xhr.status >= 300) {
+        failure('HTTP Error: ' + xhr.status);
+        return;
+      }
+
+      json = JSON.parse(xhr.responseText);
+
+      if (!json || typeof json.location != 'string') {
+        failure('Invalid JSON: ' + xhr.responseText);
+        return;
+      }
+
+      success(json.location);
+    };
+
+    xhr.onerror = function() {
+      failure('Image upload failed due to a XHR Transport error. Code: ' + xhr.status);
+    };
+
+    formData = new FormData();
+    formData.append('file', blobInfo.blob(), blobInfo.filename());
+
+    xhr.send(formData);
+  };
+  tinymce.init({
+    content_css: "/mycontent.css",
+    language: 'es_MX',
+    selector: '#editor',
+    height: 450,
+    fontsize_formats: "5pt 6pt 7pt 8pt 9pt 10pt 11pt 12pt 14pt 16pt 18pt 20pt",
+    fontsize: '6pt',
+    file_picker_types: 'file image media',
+    menubar: false,
+    paste_data_images: true,
+    plugins: [
+      'print preview anchor ',
+      'searchreplace visualblocks  fullscreen charmap', ,
+      '   contextmenu   powerpaste link autolink lists  image  table'
+
+    ],
+    branding: false,
+    powerpaste_word_import: 'clean',
+    powerpaste_keep_unsupported_src: true,
+    powerpaste_html_import: 'clean',
+    smart_paste: false,
+    /*   images_upload_url: './postAcceptor.php', */
+    contextmenu: false,
+    toolbar: ' fontselect styleselect fontsizeselect| bold italic |  autolink image table  link  |formatpainter permanentpen forecolor backcolor  | alignleft aligncenter alignright alignjustify | addcomment showcomments| casechange |bullist numlist outdent indent | advcode spellchecker a11ycheck | code | checklist | ',
+    toolbar_drawer: 'sliding',
+    skin: "RMN2", //Add these two options
+    permanentpen_properties: {
+      fontname: 'helvetica,sans-serif,arial',
+      forecolor: '#FF0000',
+      fontsize: '6pt',
+      hilitecolor: '',
+      bold: true,
+      italic: false,
+      strikethrough: false,
+      underline: false
+    },
+    font_formats: "Andale Mono=andale mono,times; Arial=arial,helvetica,sans-serif; Arial Black=arial black,avant garde; Book Antiqua=book antiqua,palatino; Comic Sans MS=comic sans ms,sans-serif; Courier New=courier new,courier; Georgia=georgia,palatino; Helvetica=helvetica; Impact=impact,chicago; Symbol=symbol; Tahoma=tahoma,arial,helvetica,sans-serif; Terminal=terminal,monaco; Times New Roman=times new roman,times; Trebuchet MS=trebuchet ms,geneva; Verdana=verdana,geneva; Webdings=webdings; Wingdings=wingdings,zapf dingbats",
+    images_upload_handler: example_image_upload_handler,
+    table_toolbar: "tableprops cellprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol",
+    powerpaste_allow_local_images: true,
+    powerpaste_word_import: 'prompt',
+    powerpaste_html_import: 'prompt',
+    spellchecker_language: 'es',
+    spellchecker_dialog: true,
+    browser_spellcheck: true,
+    relative_urls: false,
+    remove_script_host: false,
+
+    content_css: [
+      '//fonts.googleapis.com/css?family=Lato:300,300i,400,400i',
+      '//www.tinymce.com/css/codepen.min.css'
+    ],
+    link_context_toolbar: true
+  });
+
+  // Prevent Bootstrap dialog from blocking focusin
+  document.addEventListener('focusin', (e) => {
+    if (e.target.closest(".tox-tinymce-aux, .moxman-window, .tam-assetmanager-root") !== null) {
+      e.stopImmediatePropagation();
+    }
+  });
+</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/v/bs5/jq-3.6.0/jszip-2.5.0/dt-1.13.3/af-2.5.2/b-2.3.5/b-colvis-2.3.5/b-html5-2.3.5/b-print-2.3.5/cr-1.6.1/date-1.3.1/fc-4.2.1/fh-3.3.1/kt-2.8.1/r-2.4.0/rg-1.3.0/rr-1.3.2/sc-2.1.0/sb-1.4.0/sp-2.1.1/sl-1.6.1/sr-1.2.1/datatables.min.js"></script>
 	<script>
 		$(document).ready(function() {
 			$('#users-list').DataTable();
 		});
-
 	</script>
-	
+
 </body>
 
 </html>
