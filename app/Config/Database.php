@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'AI-ML',
+        'database' => 'rmn',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

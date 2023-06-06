@@ -30,7 +30,7 @@ function db_query($query)
 {
 	/*Datos para conexion*/
 	$host = 'localhost';
-	$db = 'AI-ML';
+	$db = 'rmn';
 	$user = 'root';
 	$pass = '';
 	$conexion = new mysqli($host, $user, $pass, $db);

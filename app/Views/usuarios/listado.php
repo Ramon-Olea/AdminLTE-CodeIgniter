@@ -9,11 +9,11 @@
 <br><br>
 <div class="card card-info text-center">
     <div class="card-header ">
-        <h3 class="card-title text-center">Listado de Usuarios</h3>
-
+        <h3 class="card-title text-center">Listado de Usuarios </h3>
+        <a href="<?php echo base_url('/usercrear') ?>" class="btn btn-secondary text-right"><i class="fa fa-plus-circle fa-fw me-1"></i> Crear Usuario</a>
     </div>
     <br>
-    <a href="<?php echo base_url('/usercrear') ?>" class="btn btn-light"><i class="fa fa-plus-circle fa-fw me-1"></i> Crear Usuario</a>
+
 
     <div class="table-responsive" id="mydatatable-container">
         <table class="records_list table table-striped table-bordered table-hover" id="mydatatable">
