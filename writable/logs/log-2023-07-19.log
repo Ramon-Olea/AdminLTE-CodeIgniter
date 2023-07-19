@@ -1,0 +1,568 @@
+CRITICAL - 2023-07-19 12:27:01 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\header.php on line 129.
+ 1 APPPATH\Views\header.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\header.php', 129, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:27:30 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\header.php on line 129.
+ 1 APPPATH\Views\header.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\header.php', 129, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:28:19 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH\Views\header.php on line 129.
+ 1 APPPATH\Views\header.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH\\Views\\header.php', 129, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('inicio', [], true)
+ 6 APPPATH\Controllers\Home.php(22): view('inicio')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->inicio()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:39:20 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::extend() in C:\wamp64\www\AdminLTE-CodeIgniter\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(284): include()
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 12:39:27 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::extend() in C:\wamp64\www\AdminLTE-CodeIgniter\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(284): include()
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 12:40:20 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::extend() in C:\wamp64\www\AdminLTE-CodeIgniter\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(284): include()
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 12:40:34 --> Uncaught Error: Call to undefined method CodeIgniter\Debug\Exceptions::extend() in C:\wamp64\www\AdminLTE-CodeIgniter\app\Views\errors\html\error_404.php:1
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(284): include()
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+in APPPATH\Views\errors\html\error_404.php on line 1.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-19 12:48:45 --> Invalid file: invmercados/inicio.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invmercados/inicio.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('invmercados/inicio', [], true)
+ 3 APPPATH\Controllers\InvMerc.php(16): view('invmercados/inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\InvMerc->invmercados()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvMerc))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:56:09 --> Undefined variable: rowSubModulos
+in APPPATH\Views\header.php on line 203.
+ 1 APPPATH\Views\header.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowSubModulos', 'APPPATH\\Views\\header.php', 203, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blog/listado', [], true)
+ 6 APPPATH\Controllers\Blog.php(84): view('blog/listado', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Blog->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:56:33 --> Undefined index: ciono
+in APPPATH\Views\header.php on line 204.
+ 1 APPPATH\Views\header.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ciono', 'APPPATH\\Views\\header.php', 204, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blog/listado', [], true)
+ 6 APPPATH\Controllers\Blog.php(84): view('blog/listado', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Blog->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 12:56:43 --> Undefined variable: rowSubModulos
+in APPPATH\Views\header.php on line 203.
+ 1 APPPATH\Views\header.php(203): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: rowSubModulos', 'APPPATH\\Views\\header.php', 203, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('header', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('blog/listado', [], true)
+ 6 APPPATH\Controllers\Blog.php(84): view('blog/listado', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Blog->blog()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 13:06:05 --> Undefined index: principal
+in APPPATH\Views\header.php on line 192.
+ 1 APPPATH\Views\header.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: principal', 'APPPATH\\Views\\header.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\modulos\listmodulos.php(2): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\modulos\\listmodulos.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('modulos/listmodulos', [], true)
+ 9 APPPATH\Controllers\Home.php(336): view('modulos/listmodulos', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listamodulos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 13:06:40 --> Undefined index: principal
+in APPPATH\Views\header.php on line 192.
+ 1 APPPATH\Views\header.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: principal', 'APPPATH\\Views\\header.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\modulos\listmodulos.php(2): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\modulos\\listmodulos.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('modulos/listmodulos', [], true)
+ 9 APPPATH\Controllers\Home.php(336): view('modulos/listmodulos', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listamodulos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 13:07:15 --> Undefined index: principal
+in APPPATH\Views\header.php on line 192.
+ 1 APPPATH\Views\header.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: principal', 'APPPATH\\Views\\header.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\modulos\listmodulos.php(2): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\modulos\\listmodulos.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('modulos/listmodulos', [], true)
+ 9 APPPATH\Controllers\Home.php(336): view('modulos/listmodulos', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listamodulos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 13:07:16 --> Undefined index: principal
+in APPPATH\Views\header.php on line 192.
+ 1 APPPATH\Views\header.php(192): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: principal', 'APPPATH\\Views\\header.php', 192, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\modulos\listmodulos.php(2): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\modulos\\listmodulos.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('modulos/listmodulos', [], true)
+ 9 APPPATH\Controllers\Home.php(336): view('modulos/listmodulos', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listamodulos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-19 13:08:29 --> Undefined index: Archivo
+in APPPATH\Views\header.php on line 193.
+ 1 APPPATH\Views\header.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Archivo', 'APPPATH\\Views\\header.php', 193, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('header', null, true)
+ 5 APPPATH\Views\modulos\listmodulos.php(2): CodeIgniter\View\View->include('header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\modulos\\listmodulos.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('modulos/listmodulos', [], true)
+ 9 APPPATH\Controllers\Home.php(336): view('modulos/listmodulos', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listamodulos()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:48 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'plugins', 'fontawesome-fre...', 'css', 'all.min.css')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:48 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'plugins', 'fontawesome-free', 'css', 'all.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:48 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'dist', 'css', 'adminlte.min.cs...')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:48 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'dist', 'css', 'adminlte.min.css')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('assets')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('assets', 'js', 'funciones.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\assets')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\assets', 'js', 'funciones.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'plugins', 'bootstrap', 'js', 'bootstrap.bundl...')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'plugins', 'bootstrap', 'js', 'bootstrap.bundle.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'plugins', 'jquery', 'jquery.min.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'plugins', 'jquery', 'jquery.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'plugins', 'chart.js', 'Chart.min.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'plugins', 'chart.js', 'Chart.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'dist', 'js', 'adminlte.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'dist', 'js', 'adminlte.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'dist', 'js', 'demo.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'dist', 'js', 'demo.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'dist', 'img', 'AdminLTELogo.pn...')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'dist', 'img', 'AdminLTELogo.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'template' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('template')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('template', 'dist', 'js', 'pages', 'dashboard3.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'template' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =template')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\template')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\template', 'dist', 'js', 'pages', 'dashboard3.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('assets')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('assets', 'img', 'user', 'default_user.pn...')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\assets')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\assets', 'img', 'user', 'default_user.png')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-19 13:13:49 --> mysqli_sql_exception: Unknown column 'assets' in 'where clause' in C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm...', 0)
+#1 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm...')
+#2 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm...')
+#3 C:\wamp64\www\AdminLTE-CodeIgniter\app\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm...')
+#4 C:\wamp64\www\AdminLTE-CodeIgniter\app\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('assets')
+#5 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(927): App\Controllers\Home->moduloedit('assets', 'plugins', 'tinymce5.7', 'tinymce.min.js')
+#6 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\AdminLTE-CodeIgniter\vendor\codeigniter4\framework\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\AdminLTE-CodeIgniter\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-07-19 13:13:49 --> Unknown column 'assets' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 4 APPPATH\Models\usuarios.php(56): CodeIgniter\Database\BaseConnection->query('select ts.* ,sm.modulo 
+        FROM t_submodulos ts 
+        INNER JOIN t_modulos sm ON sm.id_modulo  = ts.Modulo where id_submodulo =assets')
+ 5 APPPATH\Controllers\Home.php(394): App\Models\Usuarios->listarSubM('FCPATH\\assets')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->moduloedit('FCPATH\\assets', 'plugins', 'tinymce5.7', 'tinymce.min.js')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

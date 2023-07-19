@@ -5,6 +5,9 @@ namespace App\Controllers;
 use Dompdf\Dompdf;
 use App\Models\Usuarios;
 
+use Hermawan\DataTables\src\DataTables;
+use Hermawan\DataTables\DataTable;
+
 class Home extends BaseController
 {
     public function index()
@@ -15,13 +18,27 @@ class Home extends BaseController
 
     public function inicio()
     {
+
         return view('inicio');
     }
     public function datos()
     {
         return view('datos');
     }
-
+    public function select_serverside()
+    {
+        $Usuario = new Usuarios();
+        $ConsultaServerside = $Usuario->ConsultaInnerServerside();
+        return DataTable::of($ConsultaServerside)
+            ->edit('Icono', function ($row) {
+                return '<i class="'. $row->Icono.'"></i>';
+            })->edit('Activo', function ($row) {
+                $color = $row->Activo == "si" ? "green" : "red";
+                return '<span  class="badge " style="background-color:'.$color.'">'.$row->Activo .'</span>';
+            })->edit('id_submodulo', function ($row) {
+                return '<a href="'. base_url() . '/moduloedit/' . $row->id_submodulo .'" class="btn btn-info" class="text-white">Editar </a> <a href="'. base_url() . '/modulodelete/' . $row->id_submodulo .'" class="btn btn-danger">Eliminar</a>';
+            })->toJson();
+    }
 
     /* obtiene los datos del formulario de login  */
     public function login()
@@ -43,7 +60,9 @@ class Home extends BaseController
                 'id_usuario' =>  $datosUsuario[0]['id_usuario'],
                 'usuario' =>  $datosUsuario[0]['usuario'],
                 'rol'    => $datosUsuario[0]['rol'],
-                'foto'    => $datosUsuario[0]['foto']
+                'foto'    => $datosUsuario[0]['foto'],
+                'email'    => $datosUsuario[0]['email']
+
 
             ];
 
@@ -90,7 +109,18 @@ class Home extends BaseController
 
     public function usercrear()
     {
-        return view('usuarios/crear');
+        $Usuarios = new Usuarios();
+        $datosUsuario = $Usuarios->listarAreas();
+        $data = [
+            'datos' =>  $datosUsuario
+        ];
+        if (session('usuario')) {
+
+            return view('usuarios/crear', $data);
+        } else {
+
+            return redirect()->to(base_url('/'))->with('mensaje', 'Ingresa al sistema');
+        }
     }
     public function registrar()
     {
@@ -99,12 +129,14 @@ class Home extends BaseController
         $data = [
             'usuario' =>  $_POST['usuario'],
             'contra'    =>  $_POST['contra'],
+            'email'    =>  $_POST['email'],
             'rol'    =>  $_POST['rol'],
+            'area'    =>  $_POST['area'],
 
         ];
         $Usuario = new Usuarios();
         $respuesta = $Usuario->insertar($data);
-       /*  $Home = new Home();//envia el correo 
+        /*  $Home = new Home();//envia el correo 
         $Home->SendEmail(); */
 
         if ($respuesta > 0) {
@@ -116,7 +148,18 @@ class Home extends BaseController
     }
     public function useractualizar()
     {
-        return view('usuarios/actualizar');
+        $Usuarios = new Usuarios();
+        $datosUsuario = $Usuarios->listarAreas();
+        $data = [
+            'datos' =>  $datosUsuario
+        ];
+        if (session('usuario')) {
+
+            return view('usuarios/actualizar', $data);
+        } else {
+
+            return redirect()->to(base_url('/'))->with('mensaje', 'Ingresa al sistema');
+        }
     }
 
     public function usereliminar($id)
@@ -133,6 +176,21 @@ class Home extends BaseController
 
             return redirect()->to(base_url() . '/usuarios')->with('mensaje', '5');
         }
+    }
+    public function userpermisos()
+    {
+
+        return view('usuarios/userpermisos');
+    }
+    public function addpermiso()
+    {
+
+        return view('usuarios/addpermiso');
+    }
+    public function permisos()
+    {
+
+        return view('usuarios/permisos');
     }
     public function obteneruser($id)
     {
@@ -152,7 +210,10 @@ class Home extends BaseController
         $data = [
             'usuario' =>  $_POST['usuario'],
             'contra'    =>  $_POST['contra'],
+            'email'    =>  $_POST['email'],
             'rol'    =>  $_POST['rol'],
+            'area'    =>  $_POST['area'],
+
 
         ];
         $Usuario = new Usuarios();
@@ -173,7 +234,6 @@ class Home extends BaseController
     }
     public function actualizarperfil()
     {
-      
         $id = $_POST['id_usuario'];
         $foto_name = isset($_FILES["foto"]["name"]) ? $_FILES["foto"]["name"] : '';
         $foto_size = isset($_FILES["foto"]["size"]) ? $_FILES["foto"]["size"] : '';
@@ -184,6 +244,7 @@ class Home extends BaseController
             $data = [
                 'usuario' =>  $_POST['usuario'],
                 'contra'    =>  $_POST['contra'],
+                'email'    =>  $_POST['email'],
 
             ];
         } else {
@@ -194,6 +255,7 @@ class Home extends BaseController
             $data = [
                 'usuario' =>  $_POST['usuario'],
                 'contra'    =>  $_POST['contra'],
+                'email'    =>  $_POST['email'],
                 'foto'    =>   $foto_reconvertida,
 
             ];
@@ -210,7 +272,7 @@ class Home extends BaseController
             return redirect()->to(base_url() . '/inicio')->with('mensaje', '7');
         }
     }
-    /* FIN USUARIOS */
+    /*  🆁🅼🅽 */
     /* CORREO ENVIAR */
     public function SendEmail()
     {
@@ -226,7 +288,164 @@ class Home extends BaseController
 
         $email->send();
     }
+    public function insertapermisos()
+    {
+        if (isset($_POST['duallistbox_demo1'])) {
 
 
-    /* FIN  */
+            $Usuario = new Usuarios();
+
+            $iduser = $_POST['id_usuario'];
+            $datauser = ['id_usuario' => $iduser];
+            $respuesta = $Usuario->eliminarPermisos($datauser);
+
+            if ($respuesta) {
+                foreach ($_POST['duallistbox_demo1'] as $elemento) {
+                    $dato = [
+                        'id_submodulo' => $elemento,
+                        'id_usuario'    =>  $iduser
+                    ];
+                    $respuesta = $Usuario->insertarPermisos($dato);
+                }
+
+                return redirect()->to(base_url() . '/usuarios')->with('mensaje', '6');
+            } else {
+
+                return redirect()->to(base_url() . '/usuarios')->with('mensaje', '7');
+            }
+        } else {
+
+            return redirect()->to(base_url() . '/usuarios')->with('mensaje', '7');
+        }
+    }
+
+    /*  🆁🅼🅽  */
+
+    /* MODULOS && SUBMODULOS */
+
+    public function listamodulos()
+    {
+        $mensaje = session('mensaje');
+
+        $Usuarios = new Usuarios();
+        $data = [
+            'mensaje' =>  $mensaje,
+        ];
+        if (session('usuario')) {
+
+            return view('modulos/listmodulos', $data);
+        } else {
+
+            return redirect()->to(base_url('/'))->with('mensaje', 'Ingresa al sistema');
+        }
+        /*  return view('modulos/listmodulos'); */
+    }
+    public function modulocrear()
+    {
+        $mensaje = session('mensaje');
+
+        $Usuarios = new Usuarios();
+        $datosModulo = $Usuarios->listarModulo();
+
+        $data = [
+            'datos' =>  $datosModulo,
+            'mensaje' =>  $mensaje,
+
+
+        ];
+        if (session('usuario')) {
+
+            return view('modulos/modulocrear', $data);
+        } else {
+
+            return redirect()->to(base_url('/'))->with('mensaje', 'Ingresa al sistema');
+        }
+        /*  return view('modulos/listmodulos'); */
+    }
+    public function registrarmodulo()
+    {
+        /*  $contra = password_hash($_POST['contra'], PASSWORD_DEFAULT); //para encriptrar */
+
+        $data = [
+            'Submodulo'    =>  $_POST['Submodulo'],
+            'Modulo'    =>  $_POST['Modulo'],
+            'Archivo'    =>  $_POST['Archivo'],
+            'Icono'    =>  $_POST['Icono'],
+            'Activo'    =>  $_POST['Activo']
+
+        ];
+        $Usuario = new Usuarios();
+        $respuesta = $Usuario->insertarSubmodulo($data);
+        /*  $Home = new Home();//envia el correo 
+        $Home->SendEmail(); */
+
+        if ($respuesta > 0) {
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '1');
+        } else {
+
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '0');
+        }
+    }
+    public function moduloedit($id)
+    {
+        $mensaje = session('mensaje');
+
+        $Usuarios = new Usuarios();
+        $datosModulo = $Usuarios->listarSubM($id);
+
+        $data = [
+            'datos' =>  $datosModulo,
+            'mensaje' =>  $mensaje,
+
+        ];
+        if (session('usuario')) {
+
+            return view('modulos/moduloedit', $data);
+        } else {
+
+            return redirect()->to(base_url('/'))->with('mensaje', 'Ingresa al sistema');
+        }
+    }
+    public function dataeditarmodulo()
+    {
+        /*  $contra = password_hash($_POST['contra'], PASSWORD_DEFAULT); //para encriptrar */
+
+        $data = [
+            'Submodulo'    =>  $_POST['Submodulo'],
+            'Modulo'    =>  $_POST['Modulo'],
+            'Archivo'    =>  $_POST['Archivo'],
+            'Icono'    =>  $_POST['Icono'],
+            'Activo'    =>  $_POST['Activo']
+
+        ];
+        $id = $_POST['id_submodulo'];
+
+        $Usuario = new Usuarios();
+        $respuesta = $Usuario->editarmodulo($data, $id);
+        /*  $Home = new Home();//envia el correo 
+        $Home->SendEmail(); */
+
+        if ($respuesta > 0) {
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '2');
+        } else {
+
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '0');
+        }
+    }
+    public function modulodelete($id)
+    {
+
+        $Usuario = new Usuarios();
+
+        $data = ['id_submodulo' => $id];
+        $respuesta = $Usuario->eliminarmodulo($data);
+        if ($respuesta) {
+
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '2');
+        } else {
+
+            return redirect()->to(base_url() . '/listamodulos')->with('mensaje', '0');
+        }
+    }
+    /*  🆁🅼🅽  */
 }

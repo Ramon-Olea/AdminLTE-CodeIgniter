@@ -44,6 +44,73 @@ class DocNum extends BaseController
     {
         return view('documentos/TablaComparativa');
     }
+    public function preciocompetencia()
+    {
+        return view('documentos/preciocompetencia');
+    }
+    public function competencia()
+    {
+        return view('documentos/competencia');
+    }
+    public function registrarcompetencia()
+    {
+        /*  $contra = password_hash($_POST['contra'], PASSWORD_DEFAULT); //para encriptrar */
+        /* print_r($_REQUEST);
+        exit; */
+        $cc = $_POST['cc'];
+        $bd = $_POST['bd'];
+
+        $data = [
+            'competencia' =>  $_POST['competencia'],
+            'precio'    =>  $_POST['precio'],
+            'articulo'    =>  $_POST['articulo'],
+
+        ];
+        $Documentos = new Documentos();
+        $respuesta = $Documentos->insertar($data);
+       /*  $Home = new Home();//envia el correo 
+        $Home->SendEmail(); */
+
+        if ($respuesta > 0) {
+            return redirect()->to(base_url() . '/documentos?cc='.$cc.'&bd='.$bd.'')->with('mensaje', '1');
+        } else {
+
+            return redirect()->to(base_url() . '/documentos?cc='.$cc.'&bd='.$bd.'')->with('mensaje', '0');
+        }
+    }
+
+
+    public function actualizarcompetencia()
+    {
+        /*  $contra = password_hash($_POST['contra'], PASSWORD_DEFAULT); //para encriptrar */
+       /*  print_r($_REQUEST);
+        exit; */
+        $cc = $_POST['cc'];
+        $bd = $_POST['bd'];
+        $Articulo = $_POST['Articulo'];
+        $fechaActual = date('Y-m-d H:i:s');
+        $data = [
+            'precio'    =>  $_POST['precio'],
+            'fecha' =>  "$fechaActual",
+
+        ];
+  
+        $Documentos = new Documentos();
+        $respuesta = $Documentos->actualizar($data , $Articulo);
+       /*  $Home = new Home();//envia el correo 
+        $Home->SendEmail(); */
+
+        if (isset($respuesta)) {
+            $datos = ['mensaje' => $respuesta];
+
+        } else {
+
+            $datos = ['mensaje' => $respuesta];
+
+        }
+
+        return $fechaActual;
+    }
     /* GENERADOR DE PDF */
 
     public function GenerarPDF()
