@@ -17,7 +17,7 @@
         <br>
 			<div class="table-responsive">
 
-        <table class="table  table-dark table-striped  dataTable no-footer " id="modulos-list">
+        <table class="table  table-striped  dataTable no-footer " id="modulos-list">
             <thead>
                 <tr>
                     <!--       <th scope="col">#</th> -->

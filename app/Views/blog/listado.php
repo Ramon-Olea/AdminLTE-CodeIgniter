@@ -33,7 +33,7 @@
                 </h3>
             </div>
             <div class="card-body">
-                <table class="records_list table table-striped table-bordered table-hover" id="mydatatable">
+                <table class=" table table-striped table-bordered table-hover" id="mydatatable">
                     <thead>
                         <tr>
                             <th scope="col">ID</th>
